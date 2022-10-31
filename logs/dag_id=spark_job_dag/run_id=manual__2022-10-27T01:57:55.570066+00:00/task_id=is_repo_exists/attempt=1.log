@@ -1,0 +1,25 @@
+[2022-10-27 01:57:56,372] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: spark_job_dag.is_repo_exists manual__2022-10-27T01:57:55.570066+00:00 [queued]>
+[2022-10-27 01:57:56,380] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: spark_job_dag.is_repo_exists manual__2022-10-27T01:57:55.570066+00:00 [queued]>
+[2022-10-27 01:57:56,381] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-27 01:57:56,382] {taskinstance.py:1357} INFO - Starting attempt 1 of 2
+[2022-10-27 01:57:56,382] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-27 01:57:56,404] {taskinstance.py:1377} INFO - Executing <Task(BranchPythonOperator): is_repo_exists> on 2022-10-27 01:57:55.570066+00:00
+[2022-10-27 01:57:56,419] {standard_task_runner.py:52} INFO - Started process 3430 to run task
+[2022-10-27 01:57:56,423] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'spark_job_dag', 'is_repo_exists', 'manual__2022-10-27T01:57:55.570066+00:00', '--job-id', '40', '--raw', '--subdir', 'DAGS_FOLDER/spark_job_dag.py', '--cfg-path', '/tmp/tmpbbyqm3wf', '--error-file', '/tmp/tmp4oevrp8x']
+[2022-10-27 01:57:56,424] {standard_task_runner.py:80} INFO - Job 40: Subtask is_repo_exists
+[2022-10-27 01:57:56,497] {task_command.py:369} INFO - Running <TaskInstance: spark_job_dag.is_repo_exists manual__2022-10-27T01:57:55.570066+00:00 [running]> on host abbfe66d2e6a
+[2022-10-27 01:57:56,564] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=spark_job_dag
+AIRFLOW_CTX_TASK_ID=is_repo_exists
+AIRFLOW_CTX_EXECUTION_DATE=2022-10-27T01:57:55.570066+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-10-27T01:57:55.570066+00:00
+[2022-10-27 01:57:56,566] {python.py:173} INFO - Done. Returned value was: dummy
+[2022-10-27 01:57:56,567] {skipmixin.py:140} INFO - Following branch dummy
+[2022-10-27 01:57:56,568] {skipmixin.py:175} INFO - Skipping tasks ['git_clone']
+[2022-10-27 01:57:56,611] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=spark_job_dag, task_id=is_repo_exists, execution_date=20221027T015755, start_date=20221027T015756, end_date=20221027T015756
+[2022-10-27 01:57:56,638] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-10-27 01:57:56,686] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

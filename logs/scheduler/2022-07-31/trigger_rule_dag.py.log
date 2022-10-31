@@ -1,0 +1,56 @@
+[2022-07-31 00:05:41,453] {processor.py:153} INFO - Started process (PID=47230) to work on /opt/airflow/dags/trigger_rule_dag.py
+[2022-07-31 00:05:41,455] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rule_dag.py for tasks to queue
+[2022-07-31 00:05:41,456] {logging_mixin.py:115} INFO - [2022-07-31 00:05:41,456] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rule_dag.py
+[2022-07-31 00:05:41,471] {processor.py:651} INFO - DAG(s) dict_keys(['trigger_rule_dag']) retrieved from /opt/airflow/dags/trigger_rule_dag.py
+[2022-07-31 00:05:36,234] {logging_mixin.py:115} INFO - [2022-07-31 00:05:36,234] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-31 00:05:36,291] {logging_mixin.py:115} INFO - [2022-07-31 00:05:36,291] {dag.py:2919} INFO - Setting next_dagrun for trigger_rule_dag to 2022-07-31T00:00:00+00:00, run_after=2022-08-01T00:00:00+00:00
+[2022-07-31 00:05:36,327] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rule_dag.py took 0.303 seconds
+[2022-07-31 02:05:45,502] {processor.py:153} INFO - Started process (PID=47298) to work on /opt/airflow/dags/trigger_rule_dag.py
+[2022-07-31 02:05:45,503] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rule_dag.py for tasks to queue
+[2022-07-31 02:05:45,504] {logging_mixin.py:115} INFO - [2022-07-31 02:05:45,504] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rule_dag.py
+[2022-07-31 02:05:45,514] {processor.py:651} INFO - DAG(s) dict_keys(['trigger_rule_dag']) retrieved from /opt/airflow/dags/trigger_rule_dag.py
+[2022-07-31 02:05:45,545] {logging_mixin.py:115} INFO - [2022-07-31 02:05:45,545] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-31 02:05:45,577] {logging_mixin.py:115} INFO - [2022-07-31 02:05:45,577] {dag.py:2919} INFO - Setting next_dagrun for trigger_rule_dag to 2022-07-31T00:00:00+00:00, run_after=2022-08-01T00:00:00+00:00
+[2022-07-31 02:05:45,593] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rule_dag.py took 0.095 seconds
+[2022-07-31 02:58:58,536] {processor.py:153} INFO - Started process (PID=47349) to work on /opt/airflow/dags/trigger_rule_dag.py
+[2022-07-31 02:58:58,537] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rule_dag.py for tasks to queue
+[2022-07-31 02:58:58,539] {logging_mixin.py:115} INFO - [2022-07-31 02:58:58,539] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rule_dag.py
+[2022-07-31 02:58:58,552] {processor.py:651} INFO - DAG(s) dict_keys(['trigger_rule_dag']) retrieved from /opt/airflow/dags/trigger_rule_dag.py
+[2022-07-31 02:58:58,586] {logging_mixin.py:115} INFO - [2022-07-31 02:58:58,586] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-31 02:58:58,622] {logging_mixin.py:115} INFO - [2022-07-31 02:58:58,621] {dag.py:2919} INFO - Setting next_dagrun for trigger_rule_dag to 2022-07-31T00:00:00+00:00, run_after=2022-08-01T00:00:00+00:00
+[2022-07-31 02:58:58,638] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rule_dag.py took 0.107 seconds
+[2022-07-31 06:29:18,634] {processor.py:153} INFO - Started process (PID=47407) to work on /opt/airflow/dags/trigger_rule_dag.py
+[2022-07-31 06:29:18,636] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rule_dag.py for tasks to queue
+[2022-07-31 06:29:18,637] {logging_mixin.py:115} INFO - [2022-07-31 06:29:18,637] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rule_dag.py
+[2022-07-31 06:29:18,653] {processor.py:651} INFO - DAG(s) dict_keys(['trigger_rule_dag']) retrieved from /opt/airflow/dags/trigger_rule_dag.py
+[2022-07-31 06:29:18,689] {logging_mixin.py:115} INFO - [2022-07-31 06:29:18,689] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-31 06:29:18,714] {logging_mixin.py:115} INFO - [2022-07-31 06:29:18,714] {dag.py:2919} INFO - Setting next_dagrun for trigger_rule_dag to 2022-07-31T00:00:00+00:00, run_after=2022-08-01T00:00:00+00:00
+[2022-07-31 06:29:18,728] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rule_dag.py took 0.112 seconds
+[2022-07-31 07:07:06,894] {processor.py:153} INFO - Started process (PID=47467) to work on /opt/airflow/dags/trigger_rule_dag.py
+[2022-07-31 07:07:06,899] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rule_dag.py for tasks to queue
+[2022-07-31 07:07:06,903] {logging_mixin.py:115} INFO - [2022-07-31 07:07:06,903] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rule_dag.py
+[2022-07-31 07:07:06,937] {processor.py:651} INFO - DAG(s) dict_keys(['trigger_rule_dag']) retrieved from /opt/airflow/dags/trigger_rule_dag.py
+[2022-07-31 07:07:07,001] {logging_mixin.py:115} INFO - [2022-07-31 07:07:07,001] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-31 07:07:07,043] {logging_mixin.py:115} INFO - [2022-07-31 07:07:07,043] {dag.py:2919} INFO - Setting next_dagrun for trigger_rule_dag to 2022-07-31T00:00:00+00:00, run_after=2022-08-01T00:00:00+00:00
+[2022-07-31 07:07:07,057] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rule_dag.py took 0.172 seconds
+[2022-07-31 07:07:37,374] {processor.py:153} INFO - Started process (PID=47529) to work on /opt/airflow/dags/trigger_rule_dag.py
+[2022-07-31 07:07:37,380] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rule_dag.py for tasks to queue
+[2022-07-31 07:07:37,391] {logging_mixin.py:115} INFO - [2022-07-31 07:07:37,390] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rule_dag.py
+[2022-07-31 07:07:37,445] {processor.py:651} INFO - DAG(s) dict_keys(['trigger_rule_dag']) retrieved from /opt/airflow/dags/trigger_rule_dag.py
+[2022-07-31 07:07:37,610] {logging_mixin.py:115} INFO - [2022-07-31 07:07:37,610] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-31 07:07:37,724] {logging_mixin.py:115} INFO - [2022-07-31 07:07:37,724] {dag.py:2919} INFO - Setting next_dagrun for trigger_rule_dag to 2022-07-31T00:00:00+00:00, run_after=2022-08-01T00:00:00+00:00
+[2022-07-31 07:07:37,812] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rule_dag.py took 0.463 seconds
+[2022-07-31 10:04:21,153] {processor.py:153} INFO - Started process (PID=47568) to work on /opt/airflow/dags/trigger_rule_dag.py
+[2022-07-31 10:04:21,155] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rule_dag.py for tasks to queue
+[2022-07-31 10:04:21,157] {logging_mixin.py:115} INFO - [2022-07-31 10:04:21,157] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rule_dag.py
+[2022-07-31 10:04:21,172] {processor.py:651} INFO - DAG(s) dict_keys(['trigger_rule_dag']) retrieved from /opt/airflow/dags/trigger_rule_dag.py
+[2022-07-31 10:04:21,236] {logging_mixin.py:115} INFO - [2022-07-31 10:04:21,236] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-31 10:04:21,265] {logging_mixin.py:115} INFO - [2022-07-31 10:04:21,265] {dag.py:2919} INFO - Setting next_dagrun for trigger_rule_dag to 2022-07-31T00:00:00+00:00, run_after=2022-08-01T00:00:00+00:00
+[2022-07-31 10:04:21,282] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rule_dag.py took 0.135 seconds
+[2022-07-31 14:58:16,596] {processor.py:153} INFO - Started process (PID=47623) to work on /opt/airflow/dags/trigger_rule_dag.py
+[2022-07-31 14:58:16,597] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rule_dag.py for tasks to queue
+[2022-07-31 14:58:16,599] {logging_mixin.py:115} INFO - [2022-07-31 14:58:16,599] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rule_dag.py
+[2022-07-31 14:58:16,622] {processor.py:651} INFO - DAG(s) dict_keys(['trigger_rule_dag']) retrieved from /opt/airflow/dags/trigger_rule_dag.py
+[2022-07-31 14:58:16,702] {logging_mixin.py:115} INFO - [2022-07-31 14:58:16,702] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-31 14:58:16,753] {logging_mixin.py:115} INFO - [2022-07-31 14:58:16,753] {dag.py:2919} INFO - Setting next_dagrun for trigger_rule_dag to 2022-07-31T00:00:00+00:00, run_after=2022-08-01T00:00:00+00:00
+[2022-07-31 14:58:16,784] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rule_dag.py took 0.191 seconds

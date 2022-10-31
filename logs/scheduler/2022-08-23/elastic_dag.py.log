@@ -1,0 +1,378 @@
+[2022-08-23 00:00:12,881] {processor.py:153} INFO - Started process (PID=3169) to work on /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:00:12,882] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-08-23 00:00:12,883] {logging_mixin.py:115} INFO - [2022-08-23 00:00:12,883] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:00:13,251] {processor.py:651} INFO - DAG(s) dict_keys(['elasticsearch_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:00:13,270] {logging_mixin.py:115} INFO - [2022-08-23 00:00:13,269] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:00:13,290] {logging_mixin.py:115} INFO - [2022-08-23 00:00:13,290] {dag.py:2919} INFO - Setting next_dagrun for elasticsearch_dag to 2022-08-22T00:00:00+00:00, run_after=2022-08-23T00:00:00+00:00
+[2022-08-23 00:00:13,301] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.425 seconds
+[2022-08-23 00:00:43,336] {processor.py:153} INFO - Started process (PID=3248) to work on /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:00:43,337] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-08-23 00:00:43,338] {logging_mixin.py:115} INFO - [2022-08-23 00:00:43,338] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:00:43,665] {processor.py:651} INFO - DAG(s) dict_keys(['elasticsearch_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:00:43,682] {logging_mixin.py:115} INFO - [2022-08-23 00:00:43,681] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:00:43,699] {logging_mixin.py:115} INFO - [2022-08-23 00:00:43,699] {dag.py:2919} INFO - Setting next_dagrun for elasticsearch_dag to 2022-08-22T00:00:00+00:00, run_after=2022-08-23T00:00:00+00:00
+[2022-08-23 00:00:43,707] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.374 seconds
+[2022-08-23 00:01:14,658] {processor.py:153} INFO - Started process (PID=3326) to work on /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:01:14,659] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-08-23 00:01:14,660] {logging_mixin.py:115} INFO - [2022-08-23 00:01:14,660] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:01:15,002] {processor.py:651} INFO - DAG(s) dict_keys(['elasticsearch_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:01:15,018] {logging_mixin.py:115} INFO - [2022-08-23 00:01:15,018] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:01:15,040] {logging_mixin.py:115} INFO - [2022-08-23 00:01:15,040] {dag.py:2919} INFO - Setting next_dagrun for elasticsearch_dag to 2022-08-22T00:00:00+00:00, run_after=2022-08-23T00:00:00+00:00
+[2022-08-23 00:01:15,049] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.394 seconds
+[2022-08-23 00:01:45,951] {processor.py:153} INFO - Started process (PID=3403) to work on /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:01:45,952] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-08-23 00:01:45,953] {logging_mixin.py:115} INFO - [2022-08-23 00:01:45,953] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:01:46,290] {processor.py:651} INFO - DAG(s) dict_keys(['elasticsearch_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:01:46,308] {logging_mixin.py:115} INFO - [2022-08-23 00:01:46,308] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:01:46,329] {logging_mixin.py:115} INFO - [2022-08-23 00:01:46,329] {dag.py:2919} INFO - Setting next_dagrun for elasticsearch_dag to 2022-08-22T00:00:00+00:00, run_after=2022-08-23T00:00:00+00:00
+[2022-08-23 00:01:46,339] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.391 seconds
+[2022-08-23 00:02:16,545] {processor.py:153} INFO - Started process (PID=3471) to work on /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:02:16,546] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-08-23 00:02:16,548] {logging_mixin.py:115} INFO - [2022-08-23 00:02:16,548] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:02:16,914] {processor.py:651} INFO - DAG(s) dict_keys(['elasticsearch_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:02:16,935] {logging_mixin.py:115} INFO - [2022-08-23 00:02:16,935] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:02:16,955] {logging_mixin.py:115} INFO - [2022-08-23 00:02:16,955] {dag.py:2919} INFO - Setting next_dagrun for elasticsearch_dag to 2022-08-22T00:00:00+00:00, run_after=2022-08-23T00:00:00+00:00
+[2022-08-23 00:02:16,964] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.422 seconds
+[2022-08-23 00:02:47,030] {processor.py:153} INFO - Started process (PID=3548) to work on /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:02:47,031] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-08-23 00:02:47,032] {logging_mixin.py:115} INFO - [2022-08-23 00:02:47,031] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:02:47,377] {processor.py:651} INFO - DAG(s) dict_keys(['elasticsearch_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:02:47,393] {logging_mixin.py:115} INFO - [2022-08-23 00:02:47,393] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:02:47,412] {logging_mixin.py:115} INFO - [2022-08-23 00:02:47,412] {dag.py:2919} INFO - Setting next_dagrun for elasticsearch_dag to 2022-08-22T00:00:00+00:00, run_after=2022-08-23T00:00:00+00:00
+[2022-08-23 00:02:47,421] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.395 seconds
+[2022-08-23 00:03:17,501] {processor.py:153} INFO - Started process (PID=3625) to work on /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:03:17,501] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-08-23 00:03:17,502] {logging_mixin.py:115} INFO - [2022-08-23 00:03:17,502] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:03:17,838] {processor.py:651} INFO - DAG(s) dict_keys(['elasticsearch_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:03:17,855] {logging_mixin.py:115} INFO - [2022-08-23 00:03:17,854] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:03:17,873] {logging_mixin.py:115} INFO - [2022-08-23 00:03:17,873] {dag.py:2919} INFO - Setting next_dagrun for elasticsearch_dag to 2022-08-22T00:00:00+00:00, run_after=2022-08-23T00:00:00+00:00
+[2022-08-23 00:03:17,883] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.386 seconds
+[2022-08-23 00:03:48,042] {processor.py:153} INFO - Started process (PID=3693) to work on /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:03:48,044] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-08-23 00:03:48,047] {logging_mixin.py:115} INFO - [2022-08-23 00:03:48,047] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:03:48,400] {processor.py:651} INFO - DAG(s) dict_keys(['elasticsearch_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:03:48,418] {logging_mixin.py:115} INFO - [2022-08-23 00:03:48,418] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:03:48,441] {logging_mixin.py:115} INFO - [2022-08-23 00:03:48,441] {dag.py:2919} INFO - Setting next_dagrun for elasticsearch_dag to 2022-08-22T00:00:00+00:00, run_after=2022-08-23T00:00:00+00:00
+[2022-08-23 00:03:48,453] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.423 seconds
+[2022-08-23 00:04:18,801] {processor.py:153} INFO - Started process (PID=3770) to work on /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:04:18,802] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-08-23 00:04:18,803] {logging_mixin.py:115} INFO - [2022-08-23 00:04:18,803] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:04:19,146] {processor.py:651} INFO - DAG(s) dict_keys(['elasticsearch_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:04:19,162] {logging_mixin.py:115} INFO - [2022-08-23 00:04:19,162] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:04:19,182] {logging_mixin.py:115} INFO - [2022-08-23 00:04:19,182] {dag.py:2919} INFO - Setting next_dagrun for elasticsearch_dag to 2022-08-22T00:00:00+00:00, run_after=2022-08-23T00:00:00+00:00
+[2022-08-23 00:04:19,192] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.394 seconds
+[2022-08-23 00:04:49,521] {processor.py:153} INFO - Started process (PID=3847) to work on /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:04:49,522] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-08-23 00:04:49,523] {logging_mixin.py:115} INFO - [2022-08-23 00:04:49,523] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:04:49,870] {processor.py:651} INFO - DAG(s) dict_keys(['elasticsearch_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:04:49,889] {logging_mixin.py:115} INFO - [2022-08-23 00:04:49,888] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:04:49,909] {logging_mixin.py:115} INFO - [2022-08-23 00:04:49,909] {dag.py:2919} INFO - Setting next_dagrun for elasticsearch_dag to 2022-08-22T00:00:00+00:00, run_after=2022-08-23T00:00:00+00:00
+[2022-08-23 00:04:49,918] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.401 seconds
+[2022-08-23 00:05:20,215] {processor.py:153} INFO - Started process (PID=3924) to work on /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:05:20,217] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-08-23 00:05:20,218] {logging_mixin.py:115} INFO - [2022-08-23 00:05:20,218] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:05:20,560] {processor.py:651} INFO - DAG(s) dict_keys(['elasticsearch_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:05:20,580] {logging_mixin.py:115} INFO - [2022-08-23 00:05:20,580] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:05:20,600] {logging_mixin.py:115} INFO - [2022-08-23 00:05:20,600] {dag.py:2919} INFO - Setting next_dagrun for elasticsearch_dag to 2022-08-22T00:00:00+00:00, run_after=2022-08-23T00:00:00+00:00
+[2022-08-23 00:05:20,609] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.397 seconds
+[2022-08-23 00:05:50,977] {processor.py:153} INFO - Started process (PID=3992) to work on /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:05:50,978] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-08-23 00:05:50,979] {logging_mixin.py:115} INFO - [2022-08-23 00:05:50,979] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:05:51,315] {processor.py:651} INFO - DAG(s) dict_keys(['elasticsearch_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:05:51,335] {logging_mixin.py:115} INFO - [2022-08-23 00:05:51,334] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:05:51,361] {logging_mixin.py:115} INFO - [2022-08-23 00:05:51,361] {dag.py:2919} INFO - Setting next_dagrun for elasticsearch_dag to 2022-08-22T00:00:00+00:00, run_after=2022-08-23T00:00:00+00:00
+[2022-08-23 00:05:51,371] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.398 seconds
+[2022-08-23 00:06:21,644] {processor.py:153} INFO - Started process (PID=4069) to work on /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:06:21,645] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-08-23 00:06:21,646] {logging_mixin.py:115} INFO - [2022-08-23 00:06:21,646] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:06:21,981] {processor.py:651} INFO - DAG(s) dict_keys(['elasticsearch_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:06:21,998] {logging_mixin.py:115} INFO - [2022-08-23 00:06:21,998] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:06:22,017] {logging_mixin.py:115} INFO - [2022-08-23 00:06:22,017] {dag.py:2919} INFO - Setting next_dagrun for elasticsearch_dag to 2022-08-22T00:00:00+00:00, run_after=2022-08-23T00:00:00+00:00
+[2022-08-23 00:06:22,026] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.385 seconds
+[2022-08-23 00:06:52,313] {processor.py:153} INFO - Started process (PID=4146) to work on /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:06:52,314] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-08-23 00:06:52,315] {logging_mixin.py:115} INFO - [2022-08-23 00:06:52,315] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:06:52,672] {processor.py:651} INFO - DAG(s) dict_keys(['elasticsearch_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:06:52,691] {logging_mixin.py:115} INFO - [2022-08-23 00:06:52,690] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:06:52,712] {logging_mixin.py:115} INFO - [2022-08-23 00:06:52,712] {dag.py:2919} INFO - Setting next_dagrun for elasticsearch_dag to 2022-08-22T00:00:00+00:00, run_after=2022-08-23T00:00:00+00:00
+[2022-08-23 00:06:52,721] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.411 seconds
+[2022-08-23 00:07:22,894] {processor.py:153} INFO - Started process (PID=4214) to work on /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:07:22,895] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-08-23 00:07:22,896] {logging_mixin.py:115} INFO - [2022-08-23 00:07:22,896] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:07:23,272] {processor.py:651} INFO - DAG(s) dict_keys(['elasticsearch_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:07:23,295] {logging_mixin.py:115} INFO - [2022-08-23 00:07:23,294] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:07:23,318] {logging_mixin.py:115} INFO - [2022-08-23 00:07:23,318] {dag.py:2919} INFO - Setting next_dagrun for elasticsearch_dag to 2022-08-22T00:00:00+00:00, run_after=2022-08-23T00:00:00+00:00
+[2022-08-23 00:07:23,329] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.440 seconds
+[2022-08-23 00:07:54,302] {processor.py:153} INFO - Started process (PID=4291) to work on /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:07:54,303] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-08-23 00:07:54,304] {logging_mixin.py:115} INFO - [2022-08-23 00:07:54,304] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:07:54,686] {processor.py:651} INFO - DAG(s) dict_keys(['elasticsearch_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:07:54,709] {logging_mixin.py:115} INFO - [2022-08-23 00:07:54,708] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:07:54,737] {logging_mixin.py:115} INFO - [2022-08-23 00:07:54,737] {dag.py:2919} INFO - Setting next_dagrun for elasticsearch_dag to 2022-08-22T00:00:00+00:00, run_after=2022-08-23T00:00:00+00:00
+[2022-08-23 00:07:54,748] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.450 seconds
+[2022-08-23 00:08:25,057] {processor.py:153} INFO - Started process (PID=4368) to work on /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:08:25,058] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-08-23 00:08:25,059] {logging_mixin.py:115} INFO - [2022-08-23 00:08:25,059] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:08:25,521] {processor.py:651} INFO - DAG(s) dict_keys(['elasticsearch_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:08:25,550] {logging_mixin.py:115} INFO - [2022-08-23 00:08:25,549] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:08:25,581] {logging_mixin.py:115} INFO - [2022-08-23 00:08:25,581] {dag.py:2919} INFO - Setting next_dagrun for elasticsearch_dag to 2022-08-22T00:00:00+00:00, run_after=2022-08-23T00:00:00+00:00
+[2022-08-23 00:08:25,594] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.541 seconds
+[2022-08-23 00:08:55,831] {processor.py:153} INFO - Started process (PID=4438) to work on /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:08:55,832] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-08-23 00:08:55,833] {logging_mixin.py:115} INFO - [2022-08-23 00:08:55,833] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:08:56,202] {processor.py:651} INFO - DAG(s) dict_keys(['elasticsearch_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:08:56,225] {logging_mixin.py:115} INFO - [2022-08-23 00:08:56,224] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:08:56,248] {logging_mixin.py:115} INFO - [2022-08-23 00:08:56,248] {dag.py:2919} INFO - Setting next_dagrun for elasticsearch_dag to 2022-08-22T00:00:00+00:00, run_after=2022-08-23T00:00:00+00:00
+[2022-08-23 00:08:56,259] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.432 seconds
+[2022-08-23 00:09:26,992] {processor.py:153} INFO - Started process (PID=4517) to work on /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:09:26,994] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-08-23 00:09:26,996] {logging_mixin.py:115} INFO - [2022-08-23 00:09:26,996] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:09:27,365] {processor.py:651} INFO - DAG(s) dict_keys(['elasticsearch_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:09:27,385] {logging_mixin.py:115} INFO - [2022-08-23 00:09:27,384] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:09:27,406] {logging_mixin.py:115} INFO - [2022-08-23 00:09:27,406] {dag.py:2919} INFO - Setting next_dagrun for elasticsearch_dag to 2022-08-22T00:00:00+00:00, run_after=2022-08-23T00:00:00+00:00
+[2022-08-23 00:09:27,416] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.429 seconds
+[2022-08-23 00:09:58,279] {processor.py:153} INFO - Started process (PID=4594) to work on /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:09:58,281] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-08-23 00:09:58,282] {logging_mixin.py:115} INFO - [2022-08-23 00:09:58,282] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:09:58,613] {processor.py:651} INFO - DAG(s) dict_keys(['elasticsearch_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:09:58,633] {logging_mixin.py:115} INFO - [2022-08-23 00:09:58,632] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:09:58,654] {logging_mixin.py:115} INFO - [2022-08-23 00:09:58,654] {dag.py:2919} INFO - Setting next_dagrun for elasticsearch_dag to 2022-08-22T00:00:00+00:00, run_after=2022-08-23T00:00:00+00:00
+[2022-08-23 00:09:58,664] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.388 seconds
+[2022-08-23 00:10:28,971] {processor.py:153} INFO - Started process (PID=4671) to work on /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:10:28,972] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-08-23 00:10:28,973] {logging_mixin.py:115} INFO - [2022-08-23 00:10:28,973] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:10:29,292] {processor.py:651} INFO - DAG(s) dict_keys(['elasticsearch_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:10:29,309] {logging_mixin.py:115} INFO - [2022-08-23 00:10:29,309] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:10:29,327] {logging_mixin.py:115} INFO - [2022-08-23 00:10:29,327] {dag.py:2919} INFO - Setting next_dagrun for elasticsearch_dag to 2022-08-22T00:00:00+00:00, run_after=2022-08-23T00:00:00+00:00
+[2022-08-23 00:10:29,340] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.373 seconds
+[2022-08-23 00:10:59,498] {processor.py:153} INFO - Started process (PID=4739) to work on /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:10:59,499] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-08-23 00:10:59,500] {logging_mixin.py:115} INFO - [2022-08-23 00:10:59,500] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:10:59,829] {processor.py:651} INFO - DAG(s) dict_keys(['elasticsearch_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:10:59,849] {logging_mixin.py:115} INFO - [2022-08-23 00:10:59,848] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:10:59,870] {logging_mixin.py:115} INFO - [2022-08-23 00:10:59,870] {dag.py:2919} INFO - Setting next_dagrun for elasticsearch_dag to 2022-08-22T00:00:00+00:00, run_after=2022-08-23T00:00:00+00:00
+[2022-08-23 00:10:59,882] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.387 seconds
+[2022-08-23 00:11:30,423] {processor.py:153} INFO - Started process (PID=4816) to work on /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:11:30,424] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-08-23 00:11:30,425] {logging_mixin.py:115} INFO - [2022-08-23 00:11:30,425] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:11:30,769] {processor.py:651} INFO - DAG(s) dict_keys(['elasticsearch_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:11:30,790] {logging_mixin.py:115} INFO - [2022-08-23 00:11:30,789] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:11:30,814] {logging_mixin.py:115} INFO - [2022-08-23 00:11:30,814] {dag.py:2919} INFO - Setting next_dagrun for elasticsearch_dag to 2022-08-22T00:00:00+00:00, run_after=2022-08-23T00:00:00+00:00
+[2022-08-23 00:11:30,823] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.405 seconds
+[2022-08-23 00:12:00,931] {processor.py:153} INFO - Started process (PID=4893) to work on /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:12:00,932] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-08-23 00:12:00,933] {logging_mixin.py:115} INFO - [2022-08-23 00:12:00,933] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:12:01,276] {processor.py:651} INFO - DAG(s) dict_keys(['elasticsearch_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:12:01,298] {logging_mixin.py:115} INFO - [2022-08-23 00:12:01,297] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:12:01,318] {logging_mixin.py:115} INFO - [2022-08-23 00:12:01,318] {dag.py:2919} INFO - Setting next_dagrun for elasticsearch_dag to 2022-08-22T00:00:00+00:00, run_after=2022-08-23T00:00:00+00:00
+[2022-08-23 00:12:01,328] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.401 seconds
+[2022-08-23 00:12:31,569] {processor.py:153} INFO - Started process (PID=4970) to work on /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:12:31,570] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-08-23 00:12:31,571] {logging_mixin.py:115} INFO - [2022-08-23 00:12:31,571] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:12:31,926] {processor.py:651} INFO - DAG(s) dict_keys(['elasticsearch_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:12:31,946] {logging_mixin.py:115} INFO - [2022-08-23 00:12:31,945] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:12:31,966] {logging_mixin.py:115} INFO - [2022-08-23 00:12:31,966] {dag.py:2919} INFO - Setting next_dagrun for elasticsearch_dag to 2022-08-22T00:00:00+00:00, run_after=2022-08-23T00:00:00+00:00
+[2022-08-23 00:12:31,977] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.411 seconds
+[2022-08-23 00:13:02,115] {processor.py:153} INFO - Started process (PID=5038) to work on /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:13:02,117] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-08-23 00:13:02,118] {logging_mixin.py:115} INFO - [2022-08-23 00:13:02,118] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:13:02,590] {processor.py:651} INFO - DAG(s) dict_keys(['elasticsearch_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:13:02,623] {logging_mixin.py:115} INFO - [2022-08-23 00:13:02,622] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:13:02,658] {logging_mixin.py:115} INFO - [2022-08-23 00:13:02,658] {dag.py:2919} INFO - Setting next_dagrun for elasticsearch_dag to 2022-08-22T00:00:00+00:00, run_after=2022-08-23T00:00:00+00:00
+[2022-08-23 00:13:02,668] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.557 seconds
+[2022-08-23 00:13:33,387] {processor.py:153} INFO - Started process (PID=5115) to work on /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:13:33,389] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-08-23 00:13:33,390] {logging_mixin.py:115} INFO - [2022-08-23 00:13:33,390] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:13:33,758] {processor.py:651} INFO - DAG(s) dict_keys(['elasticsearch_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:13:33,777] {logging_mixin.py:115} INFO - [2022-08-23 00:13:33,776] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:13:33,797] {logging_mixin.py:115} INFO - [2022-08-23 00:13:33,797] {dag.py:2919} INFO - Setting next_dagrun for elasticsearch_dag to 2022-08-22T00:00:00+00:00, run_after=2022-08-23T00:00:00+00:00
+[2022-08-23 00:13:33,806] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.423 seconds
+[2022-08-23 00:14:03,880] {processor.py:153} INFO - Started process (PID=5192) to work on /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:14:03,881] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-08-23 00:14:03,882] {logging_mixin.py:115} INFO - [2022-08-23 00:14:03,882] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:14:04,263] {processor.py:651} INFO - DAG(s) dict_keys(['elasticsearch_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:14:04,283] {logging_mixin.py:115} INFO - [2022-08-23 00:14:04,282] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:14:04,307] {logging_mixin.py:115} INFO - [2022-08-23 00:14:04,306] {dag.py:2919} INFO - Setting next_dagrun for elasticsearch_dag to 2022-08-22T00:00:00+00:00, run_after=2022-08-23T00:00:00+00:00
+[2022-08-23 00:14:04,317] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.441 seconds
+[2022-08-23 00:14:34,826] {processor.py:153} INFO - Started process (PID=5269) to work on /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:14:34,827] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-08-23 00:14:34,828] {logging_mixin.py:115} INFO - [2022-08-23 00:14:34,828] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:14:35,240] {processor.py:651} INFO - DAG(s) dict_keys(['elasticsearch_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:14:35,264] {logging_mixin.py:115} INFO - [2022-08-23 00:14:35,264] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:14:35,289] {logging_mixin.py:115} INFO - [2022-08-23 00:14:35,289] {dag.py:2919} INFO - Setting next_dagrun for elasticsearch_dag to 2022-08-22T00:00:00+00:00, run_after=2022-08-23T00:00:00+00:00
+[2022-08-23 00:14:35,307] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.485 seconds
+[2022-08-23 00:15:05,404] {processor.py:153} INFO - Started process (PID=5337) to work on /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:15:05,405] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-08-23 00:15:05,406] {logging_mixin.py:115} INFO - [2022-08-23 00:15:05,406] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:15:05,720] {processor.py:651} INFO - DAG(s) dict_keys(['elasticsearch_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:15:05,737] {logging_mixin.py:115} INFO - [2022-08-23 00:15:05,737] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:15:05,757] {logging_mixin.py:115} INFO - [2022-08-23 00:15:05,757] {dag.py:2919} INFO - Setting next_dagrun for elasticsearch_dag to 2022-08-22T00:00:00+00:00, run_after=2022-08-23T00:00:00+00:00
+[2022-08-23 00:15:05,766] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.365 seconds
+[2022-08-23 00:15:35,842] {processor.py:153} INFO - Started process (PID=5414) to work on /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:15:35,843] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-08-23 00:15:35,844] {logging_mixin.py:115} INFO - [2022-08-23 00:15:35,844] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:15:36,166] {processor.py:651} INFO - DAG(s) dict_keys(['elasticsearch_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:15:36,183] {logging_mixin.py:115} INFO - [2022-08-23 00:15:36,183] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:15:36,200] {logging_mixin.py:115} INFO - [2022-08-23 00:15:36,200] {dag.py:2919} INFO - Setting next_dagrun for elasticsearch_dag to 2022-08-22T00:00:00+00:00, run_after=2022-08-23T00:00:00+00:00
+[2022-08-23 00:15:36,209] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.371 seconds
+[2022-08-23 00:16:06,292] {processor.py:153} INFO - Started process (PID=5491) to work on /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:16:06,297] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-08-23 00:16:06,299] {logging_mixin.py:115} INFO - [2022-08-23 00:16:06,299] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:16:06,766] {processor.py:651} INFO - DAG(s) dict_keys(['elasticsearch_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:16:06,790] {logging_mixin.py:115} INFO - [2022-08-23 00:16:06,790] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:16:06,818] {logging_mixin.py:115} INFO - [2022-08-23 00:16:06,818] {dag.py:2919} INFO - Setting next_dagrun for elasticsearch_dag to 2022-08-22T00:00:00+00:00, run_after=2022-08-23T00:00:00+00:00
+[2022-08-23 00:16:06,828] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.540 seconds
+[2022-08-23 00:16:37,556] {processor.py:153} INFO - Started process (PID=5559) to work on /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:16:37,557] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-08-23 00:16:37,558] {logging_mixin.py:115} INFO - [2022-08-23 00:16:37,558] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:16:37,905] {processor.py:651} INFO - DAG(s) dict_keys(['elasticsearch_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:16:37,926] {logging_mixin.py:115} INFO - [2022-08-23 00:16:37,926] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:16:37,955] {logging_mixin.py:115} INFO - [2022-08-23 00:16:37,955] {dag.py:2919} INFO - Setting next_dagrun for elasticsearch_dag to 2022-08-22T00:00:00+00:00, run_after=2022-08-23T00:00:00+00:00
+[2022-08-23 00:16:37,965] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.434 seconds
+[2022-08-23 00:17:08,126] {processor.py:153} INFO - Started process (PID=5636) to work on /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:17:08,127] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-08-23 00:17:08,129] {logging_mixin.py:115} INFO - [2022-08-23 00:17:08,129] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:17:08,492] {processor.py:651} INFO - DAG(s) dict_keys(['elasticsearch_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:17:08,519] {logging_mixin.py:115} INFO - [2022-08-23 00:17:08,518] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:17:08,540] {logging_mixin.py:115} INFO - [2022-08-23 00:17:08,540] {dag.py:2919} INFO - Setting next_dagrun for elasticsearch_dag to 2022-08-22T00:00:00+00:00, run_after=2022-08-23T00:00:00+00:00
+[2022-08-23 00:17:08,551] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.430 seconds
+[2022-08-23 00:17:39,274] {processor.py:153} INFO - Started process (PID=5713) to work on /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:17:39,276] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-08-23 00:17:39,276] {logging_mixin.py:115} INFO - [2022-08-23 00:17:39,276] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:17:39,634] {processor.py:651} INFO - DAG(s) dict_keys(['elasticsearch_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:17:39,655] {logging_mixin.py:115} INFO - [2022-08-23 00:17:39,654] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:17:39,675] {logging_mixin.py:115} INFO - [2022-08-23 00:17:39,674] {dag.py:2919} INFO - Setting next_dagrun for elasticsearch_dag to 2022-08-22T00:00:00+00:00, run_after=2022-08-23T00:00:00+00:00
+[2022-08-23 00:17:39,684] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.414 seconds
+[2022-08-23 00:18:10,094] {processor.py:153} INFO - Started process (PID=5790) to work on /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:18:10,095] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-08-23 00:18:10,096] {logging_mixin.py:115} INFO - [2022-08-23 00:18:10,096] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:18:10,481] {processor.py:651} INFO - DAG(s) dict_keys(['elasticsearch_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:18:10,499] {logging_mixin.py:115} INFO - [2022-08-23 00:18:10,498] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:18:10,519] {logging_mixin.py:115} INFO - [2022-08-23 00:18:10,519] {dag.py:2919} INFO - Setting next_dagrun for elasticsearch_dag to 2022-08-22T00:00:00+00:00, run_after=2022-08-23T00:00:00+00:00
+[2022-08-23 00:18:10,530] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.439 seconds
+[2022-08-23 00:18:41,023] {processor.py:153} INFO - Started process (PID=5858) to work on /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:18:41,024] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-08-23 00:18:41,025] {logging_mixin.py:115} INFO - [2022-08-23 00:18:41,025] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:18:41,425] {processor.py:651} INFO - DAG(s) dict_keys(['elasticsearch_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:18:41,446] {logging_mixin.py:115} INFO - [2022-08-23 00:18:41,446] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:18:41,474] {logging_mixin.py:115} INFO - [2022-08-23 00:18:41,474] {dag.py:2919} INFO - Setting next_dagrun for elasticsearch_dag to 2022-08-22T00:00:00+00:00, run_after=2022-08-23T00:00:00+00:00
+[2022-08-23 00:18:41,486] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.468 seconds
+[2022-08-23 00:19:12,367] {processor.py:153} INFO - Started process (PID=5935) to work on /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:19:12,368] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-08-23 00:19:12,369] {logging_mixin.py:115} INFO - [2022-08-23 00:19:12,369] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:19:12,725] {processor.py:651} INFO - DAG(s) dict_keys(['elasticsearch_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:19:12,743] {logging_mixin.py:115} INFO - [2022-08-23 00:19:12,742] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:19:12,764] {logging_mixin.py:115} INFO - [2022-08-23 00:19:12,763] {dag.py:2919} INFO - Setting next_dagrun for elasticsearch_dag to 2022-08-22T00:00:00+00:00, run_after=2022-08-23T00:00:00+00:00
+[2022-08-23 00:19:12,774] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.413 seconds
+[2022-08-23 00:19:43,731] {processor.py:153} INFO - Started process (PID=6012) to work on /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:19:43,732] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-08-23 00:19:43,733] {logging_mixin.py:115} INFO - [2022-08-23 00:19:43,733] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:19:44,132] {processor.py:651} INFO - DAG(s) dict_keys(['elasticsearch_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:19:44,159] {logging_mixin.py:115} INFO - [2022-08-23 00:19:44,158] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:19:44,184] {logging_mixin.py:115} INFO - [2022-08-23 00:19:44,184] {dag.py:2919} INFO - Setting next_dagrun for elasticsearch_dag to 2022-08-22T00:00:00+00:00, run_after=2022-08-23T00:00:00+00:00
+[2022-08-23 00:19:44,194] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.467 seconds
+[2022-08-23 00:20:15,001] {processor.py:153} INFO - Started process (PID=6089) to work on /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:20:15,002] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-08-23 00:20:15,003] {logging_mixin.py:115} INFO - [2022-08-23 00:20:15,003] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:20:15,350] {processor.py:651} INFO - DAG(s) dict_keys(['elasticsearch_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:20:15,372] {logging_mixin.py:115} INFO - [2022-08-23 00:20:15,372] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:20:15,390] {logging_mixin.py:115} INFO - [2022-08-23 00:20:15,390] {dag.py:2919} INFO - Setting next_dagrun for elasticsearch_dag to 2022-08-22T00:00:00+00:00, run_after=2022-08-23T00:00:00+00:00
+[2022-08-23 00:20:15,399] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.402 seconds
+[2022-08-23 00:20:45,706] {processor.py:153} INFO - Started process (PID=6157) to work on /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:20:45,707] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-08-23 00:20:45,708] {logging_mixin.py:115} INFO - [2022-08-23 00:20:45,708] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:20:46,072] {processor.py:651} INFO - DAG(s) dict_keys(['elasticsearch_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:20:46,093] {logging_mixin.py:115} INFO - [2022-08-23 00:20:46,092] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:20:46,113] {logging_mixin.py:115} INFO - [2022-08-23 00:20:46,113] {dag.py:2919} INFO - Setting next_dagrun for elasticsearch_dag to 2022-08-22T00:00:00+00:00, run_after=2022-08-23T00:00:00+00:00
+[2022-08-23 00:20:46,129] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.427 seconds
+[2022-08-23 00:21:17,165] {processor.py:153} INFO - Started process (PID=6234) to work on /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:21:17,166] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-08-23 00:21:17,167] {logging_mixin.py:115} INFO - [2022-08-23 00:21:17,167] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:21:17,591] {processor.py:651} INFO - DAG(s) dict_keys(['elasticsearch_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:21:17,624] {logging_mixin.py:115} INFO - [2022-08-23 00:21:17,622] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:21:17,653] {logging_mixin.py:115} INFO - [2022-08-23 00:21:17,653] {dag.py:2919} INFO - Setting next_dagrun for elasticsearch_dag to 2022-08-22T00:00:00+00:00, run_after=2022-08-23T00:00:00+00:00
+[2022-08-23 00:21:17,668] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.509 seconds
+[2022-08-23 00:21:48,658] {processor.py:153} INFO - Started process (PID=6311) to work on /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:21:48,659] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-08-23 00:21:48,660] {logging_mixin.py:115} INFO - [2022-08-23 00:21:48,660] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:21:49,018] {processor.py:651} INFO - DAG(s) dict_keys(['elasticsearch_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:21:49,037] {logging_mixin.py:115} INFO - [2022-08-23 00:21:49,037] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:21:49,064] {logging_mixin.py:115} INFO - [2022-08-23 00:21:49,064] {dag.py:2919} INFO - Setting next_dagrun for elasticsearch_dag to 2022-08-22T00:00:00+00:00, run_after=2022-08-23T00:00:00+00:00
+[2022-08-23 00:21:49,085] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.430 seconds
+[2022-08-23 00:22:19,768] {processor.py:153} INFO - Started process (PID=6388) to work on /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:22:19,769] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-08-23 00:22:19,770] {logging_mixin.py:115} INFO - [2022-08-23 00:22:19,770] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:22:20,115] {processor.py:651} INFO - DAG(s) dict_keys(['elasticsearch_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:22:20,135] {logging_mixin.py:115} INFO - [2022-08-23 00:22:20,134] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:22:20,156] {logging_mixin.py:115} INFO - [2022-08-23 00:22:20,156] {dag.py:2919} INFO - Setting next_dagrun for elasticsearch_dag to 2022-08-22T00:00:00+00:00, run_after=2022-08-23T00:00:00+00:00
+[2022-08-23 00:22:20,165] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.401 seconds
+[2022-08-23 00:22:50,280] {processor.py:153} INFO - Started process (PID=6465) to work on /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:22:50,281] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-08-23 00:22:50,282] {logging_mixin.py:115} INFO - [2022-08-23 00:22:50,282] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:22:50,697] {processor.py:651} INFO - DAG(s) dict_keys(['elasticsearch_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:22:50,726] {logging_mixin.py:115} INFO - [2022-08-23 00:22:50,725] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:22:50,747] {logging_mixin.py:115} INFO - [2022-08-23 00:22:50,747] {dag.py:2919} INFO - Setting next_dagrun for elasticsearch_dag to 2022-08-22T00:00:00+00:00, run_after=2022-08-23T00:00:00+00:00
+[2022-08-23 00:22:50,762] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.487 seconds
+[2022-08-23 00:23:21,022] {processor.py:153} INFO - Started process (PID=6533) to work on /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:23:21,023] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-08-23 00:23:21,024] {logging_mixin.py:115} INFO - [2022-08-23 00:23:21,024] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:23:21,390] {processor.py:651} INFO - DAG(s) dict_keys(['elasticsearch_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:23:21,409] {logging_mixin.py:115} INFO - [2022-08-23 00:23:21,409] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:23:21,432] {logging_mixin.py:115} INFO - [2022-08-23 00:23:21,432] {dag.py:2919} INFO - Setting next_dagrun for elasticsearch_dag to 2022-08-22T00:00:00+00:00, run_after=2022-08-23T00:00:00+00:00
+[2022-08-23 00:23:21,443] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.427 seconds
+[2022-08-23 00:23:51,576] {processor.py:153} INFO - Started process (PID=6610) to work on /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:23:51,577] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-08-23 00:23:51,578] {logging_mixin.py:115} INFO - [2022-08-23 00:23:51,578] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:23:51,950] {processor.py:651} INFO - DAG(s) dict_keys(['elasticsearch_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:23:51,971] {logging_mixin.py:115} INFO - [2022-08-23 00:23:51,970] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:23:51,990] {logging_mixin.py:115} INFO - [2022-08-23 00:23:51,990] {dag.py:2919} INFO - Setting next_dagrun for elasticsearch_dag to 2022-08-22T00:00:00+00:00, run_after=2022-08-23T00:00:00+00:00
+[2022-08-23 00:23:51,999] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.429 seconds
+[2022-08-23 00:24:22,095] {processor.py:153} INFO - Started process (PID=6688) to work on /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:24:22,096] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-08-23 00:24:22,097] {logging_mixin.py:115} INFO - [2022-08-23 00:24:22,097] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:24:22,450] {processor.py:651} INFO - DAG(s) dict_keys(['elasticsearch_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:24:22,471] {logging_mixin.py:115} INFO - [2022-08-23 00:24:22,471] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:24:22,492] {logging_mixin.py:115} INFO - [2022-08-23 00:24:22,492] {dag.py:2919} INFO - Setting next_dagrun for elasticsearch_dag to 2022-08-22T00:00:00+00:00, run_after=2022-08-23T00:00:00+00:00
+[2022-08-23 00:24:22,501] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.410 seconds
+[2022-08-23 00:24:53,375] {processor.py:153} INFO - Started process (PID=6756) to work on /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:24:53,377] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-08-23 00:24:53,378] {logging_mixin.py:115} INFO - [2022-08-23 00:24:53,378] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:24:53,740] {processor.py:651} INFO - DAG(s) dict_keys(['elasticsearch_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:24:53,760] {logging_mixin.py:115} INFO - [2022-08-23 00:24:53,760] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:24:53,781] {logging_mixin.py:115} INFO - [2022-08-23 00:24:53,781] {dag.py:2919} INFO - Setting next_dagrun for elasticsearch_dag to 2022-08-22T00:00:00+00:00, run_after=2022-08-23T00:00:00+00:00
+[2022-08-23 00:24:53,791] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.419 seconds
+[2022-08-23 00:25:24,077] {processor.py:153} INFO - Started process (PID=6833) to work on /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:25:24,079] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-08-23 00:25:24,080] {logging_mixin.py:115} INFO - [2022-08-23 00:25:24,080] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:25:24,454] {processor.py:651} INFO - DAG(s) dict_keys(['elasticsearch_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:25:24,474] {logging_mixin.py:115} INFO - [2022-08-23 00:25:24,473] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:25:24,495] {logging_mixin.py:115} INFO - [2022-08-23 00:25:24,494] {dag.py:2919} INFO - Setting next_dagrun for elasticsearch_dag to 2022-08-22T00:00:00+00:00, run_after=2022-08-23T00:00:00+00:00
+[2022-08-23 00:25:24,505] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.432 seconds
+[2022-08-23 00:25:54,726] {processor.py:153} INFO - Started process (PID=6910) to work on /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:25:54,727] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-08-23 00:25:54,728] {logging_mixin.py:115} INFO - [2022-08-23 00:25:54,728] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:25:55,096] {processor.py:651} INFO - DAG(s) dict_keys(['elasticsearch_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:25:55,116] {logging_mixin.py:115} INFO - [2022-08-23 00:25:55,116] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:25:55,138] {logging_mixin.py:115} INFO - [2022-08-23 00:25:55,138] {dag.py:2919} INFO - Setting next_dagrun for elasticsearch_dag to 2022-08-22T00:00:00+00:00, run_after=2022-08-23T00:00:00+00:00
+[2022-08-23 00:25:55,149] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.426 seconds
+[2022-08-23 00:26:25,204] {processor.py:153} INFO - Started process (PID=6987) to work on /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:26:25,206] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-08-23 00:26:25,207] {logging_mixin.py:115} INFO - [2022-08-23 00:26:25,207] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:26:25,651] {processor.py:651} INFO - DAG(s) dict_keys(['elasticsearch_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:26:25,679] {logging_mixin.py:115} INFO - [2022-08-23 00:26:25,678] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:26:25,712] {logging_mixin.py:115} INFO - [2022-08-23 00:26:25,712] {dag.py:2919} INFO - Setting next_dagrun for elasticsearch_dag to 2022-08-22T00:00:00+00:00, run_after=2022-08-23T00:00:00+00:00
+[2022-08-23 00:26:25,734] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.532 seconds
+[2022-08-23 00:26:56,086] {processor.py:153} INFO - Started process (PID=7055) to work on /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:26:56,087] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-08-23 00:26:56,088] {logging_mixin.py:115} INFO - [2022-08-23 00:26:56,088] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:26:56,507] {processor.py:651} INFO - DAG(s) dict_keys(['elasticsearch_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:26:56,533] {logging_mixin.py:115} INFO - [2022-08-23 00:26:56,532] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:26:56,554] {logging_mixin.py:115} INFO - [2022-08-23 00:26:56,553] {dag.py:2919} INFO - Setting next_dagrun for elasticsearch_dag to 2022-08-22T00:00:00+00:00, run_after=2022-08-23T00:00:00+00:00
+[2022-08-23 00:26:56,565] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.484 seconds
+[2022-08-23 00:27:26,682] {processor.py:153} INFO - Started process (PID=7132) to work on /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:27:26,683] {processor.py:641} INFO - Processing file /opt/airflow/dags/elastic_dag.py for tasks to queue
+[2022-08-23 00:27:26,685] {logging_mixin.py:115} INFO - [2022-08-23 00:27:26,685] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:27:27,096] {processor.py:651} INFO - DAG(s) dict_keys(['elasticsearch_dag']) retrieved from /opt/airflow/dags/elastic_dag.py
+[2022-08-23 00:27:27,116] {logging_mixin.py:115} INFO - [2022-08-23 00:27:27,115] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-23 00:27:27,138] {logging_mixin.py:115} INFO - [2022-08-23 00:27:27,138] {dag.py:2919} INFO - Setting next_dagrun for elasticsearch_dag to 2022-08-22T00:00:00+00:00, run_after=2022-08-23T00:00:00+00:00
+[2022-08-23 00:27:27,148] {processor.py:161} INFO - Processing /opt/airflow/dags/elastic_dag.py took 0.470 seconds

@@ -1,0 +1,26 @@
+[2022-08-12 03:31:04,364] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: elasticsearch_dag.print_es_info manual__2022-08-12T03:31:03.535613+00:00 [queued]>
+[2022-08-12 03:31:04,374] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: elasticsearch_dag.print_es_info manual__2022-08-12T03:31:03.535613+00:00 [queued]>
+[2022-08-12 03:31:04,375] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-12 03:31:04,375] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-08-12 03:31:04,376] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-12 03:31:04,388] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): print_es_info> on 2022-08-12 03:31:03.535613+00:00
+[2022-08-12 03:31:04,394] {standard_task_runner.py:52} INFO - Started process 1617 to run task
+[2022-08-12 03:31:04,398] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'elasticsearch_dag', 'print_es_info', 'manual__2022-08-12T03:31:03.535613+00:00', '--job-id', '386', '--raw', '--subdir', 'DAGS_FOLDER/elastic_dag.py', '--cfg-path', '/tmp/tmpi71ie9t4', '--error-file', '/tmp/tmpyan95k2v']
+[2022-08-12 03:31:04,399] {standard_task_runner.py:80} INFO - Job 386: Subtask print_es_info
+[2022-08-12 03:31:04,460] {task_command.py:369} INFO - Running <TaskInstance: elasticsearch_dag.print_es_info manual__2022-08-12T03:31:03.535613+00:00 [running]> on host a1c9528fe5e1
+[2022-08-12 03:31:04,533] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=elasticsearch_dag
+AIRFLOW_CTX_TASK_ID=print_es_info
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-12T03:31:03.535613+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-08-12T03:31:03.535613+00:00
+[2022-08-12 03:31:04,545] {base.py:68} INFO - Using connection ID 'elasticsearch_default' for task execution.
+[2022-08-12 03:31:04,552] {base.py:271} INFO - GET http://es01:9200/ [status:200 request:0.004s]
+[2022-08-12 03:31:04,552] {logging_mixin.py:115} INFO - {'name': 'es01', 'cluster_name': 'docker-cluster', 'cluster_uuid': 'NkZz2buGR9axw9o9NVsEIA', 'version': {'number': '8.3.3', 'build_flavor': 'default', 'build_type': 'docker', 'build_hash': '801fed82df74dbe537f89b71b098ccaff88d2c56', 'build_date': '2022-07-23T19:30:09.227964828Z', 'build_snapshot': False, 'lucene_version': '9.2.0', 'minimum_wire_compatibility_version': '7.17.0', 'minimum_index_compatibility_version': '7.0.0'}, 'tagline': 'You Know, for Search'}
+[2022-08-12 03:31:04,553] {python.py:173} INFO - Done. Returned value was: None
+[2022-08-12 03:31:04,570] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=elasticsearch_dag, task_id=print_es_info, execution_date=20220812T033103, start_date=20220812T033104, end_date=20220812T033104
+[2022-08-12 03:31:04,611] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-08-12 03:31:04,650] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,7 @@
+[2022-08-01 15:31:29,021] {processor.py:153} INFO - Started process (PID=47683) to work on /opt/airflow/dags/trigger_rule_dag.py
+[2022-08-01 15:31:29,022] {processor.py:641} INFO - Processing file /opt/airflow/dags/trigger_rule_dag.py for tasks to queue
+[2022-08-01 15:31:29,024] {logging_mixin.py:115} INFO - [2022-08-01 15:31:29,024] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/trigger_rule_dag.py
+[2022-08-01 15:31:29,041] {processor.py:651} INFO - DAG(s) dict_keys(['trigger_rule_dag']) retrieved from /opt/airflow/dags/trigger_rule_dag.py
+[2022-08-01 15:31:29,090] {logging_mixin.py:115} INFO - [2022-08-01 15:31:29,090] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-01 15:31:29,131] {logging_mixin.py:115} INFO - [2022-08-01 15:31:29,131] {dag.py:2919} INFO - Setting next_dagrun for trigger_rule_dag to 2022-07-31T00:00:00+00:00, run_after=2022-08-01T00:00:00+00:00
+[2022-08-01 15:31:29,146] {processor.py:161} INFO - Processing /opt/airflow/dags/trigger_rule_dag.py took 0.131 seconds

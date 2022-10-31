@@ -1,0 +1,28 @@
+[2022-08-19 14:24:51,851] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: docker_dag.print_current_date scheduled__2022-08-19T13:05:00+00:00 [queued]>
+[2022-08-19 14:24:51,867] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: docker_dag.print_current_date scheduled__2022-08-19T13:05:00+00:00 [queued]>
+[2022-08-19 14:24:51,869] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-19 14:24:51,870] {taskinstance.py:1357} INFO - Starting attempt 1 of 2
+[2022-08-19 14:24:51,870] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-19 14:24:51,892] {taskinstance.py:1377} INFO - Executing <Task(BashOperator): print_current_date> on 2022-08-19 13:05:00+00:00
+[2022-08-19 14:24:51,905] {standard_task_runner.py:52} INFO - Started process 1219 to run task
+[2022-08-19 14:24:51,912] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'docker_dag', 'print_current_date', 'scheduled__2022-08-19T13:05:00+00:00', '--job-id', '664', '--raw', '--subdir', 'DAGS_FOLDER/docker_dag.py', '--cfg-path', '/tmp/tmpps2qzgo0', '--error-file', '/tmp/tmpxmhuiwh1']
+[2022-08-19 14:24:51,916] {standard_task_runner.py:80} INFO - Job 664: Subtask print_current_date
+[2022-08-19 14:24:52,001] {task_command.py:369} INFO - Running <TaskInstance: docker_dag.print_current_date scheduled__2022-08-19T13:05:00+00:00 [running]> on host f8f5f5d21c1c
+[2022-08-19 14:24:52,112] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=docker_dag
+AIRFLOW_CTX_TASK_ID=print_current_date
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-19T13:05:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-08-19T13:05:00+00:00
+[2022-08-19 14:24:52,114] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-08-19 14:24:52,116] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'date']
+[2022-08-19 14:24:52,135] {subprocess.py:85} INFO - Output:
+[2022-08-19 14:24:52,139] {subprocess.py:92} INFO - Fri Aug 19 14:24:52 UTC 2022
+[2022-08-19 14:24:52,141] {subprocess.py:96} INFO - Command exited with return code 0
+[2022-08-19 14:24:52,184] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=docker_dag, task_id=print_current_date, execution_date=20220819T130500, start_date=20220819T142451, end_date=20220819T142452
+[2022-08-19 14:24:52,251] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-08-19 14:24:52,302] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,8 @@
+[2022-08-01 15:31:29,010] {processor.py:153} INFO - Started process (PID=47682) to work on /opt/airflow/dags/xcom_dag.py
+[2022-08-01 15:31:29,012] {processor.py:641} INFO - Processing file /opt/airflow/dags/xcom_dag.py for tasks to queue
+[2022-08-01 15:31:29,014] {logging_mixin.py:115} INFO - [2022-08-01 15:31:29,014] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/xcom_dag.py
+[2022-08-01 15:31:29,060] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:390 DeprecationWarning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2022-08-01 15:31:29,064] {processor.py:651} INFO - DAG(s) dict_keys(['xcom_dag']) retrieved from /opt/airflow/dags/xcom_dag.py
+[2022-08-01 15:31:29,110] {logging_mixin.py:115} INFO - [2022-08-01 15:31:29,110] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-08-01 15:31:29,182] {logging_mixin.py:115} INFO - [2022-08-01 15:31:29,181] {dag.py:2919} INFO - Setting next_dagrun for xcom_dag to 2022-08-01T00:00:00+00:00, run_after=2022-08-02T00:00:00+00:00
+[2022-08-01 15:31:29,203] {processor.py:161} INFO - Processing /opt/airflow/dags/xcom_dag.py took 0.199 seconds

@@ -1,0 +1,4 @@
+FROM centos:latest
+USER 0
+RUN touch /var/run/docker.sock
+RUN chmod 777 /var/run/docker.sock

@@ -1,0 +1,34 @@
+[2022-08-18 11:59:21,483] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: docker_dag.docker_command scheduled__2022-08-18T05:05:00+00:00 [queued]>
+[2022-08-18 11:59:21,498] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: docker_dag.docker_command scheduled__2022-08-18T05:05:00+00:00 [queued]>
+[2022-08-18 11:59:21,498] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-18 11:59:21,499] {taskinstance.py:1357} INFO - Starting attempt 2 of 2
+[2022-08-18 11:59:21,500] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-18 11:59:21,524] {taskinstance.py:1377} INFO - Executing <Task(DockerOperator): docker_command> on 2022-08-18 05:05:00+00:00
+[2022-08-18 11:59:21,531] {standard_task_runner.py:52} INFO - Started process 13814 to run task
+[2022-08-18 11:59:21,542] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'docker_dag', 'docker_command', 'scheduled__2022-08-18T05:05:00+00:00', '--job-id', '526', '--raw', '--subdir', 'DAGS_FOLDER/docker_dag.py', '--cfg-path', '/tmp/tmpn6iw0xjv', '--error-file', '/tmp/tmp03q44gzd']
+[2022-08-18 11:59:21,544] {standard_task_runner.py:80} INFO - Job 526: Subtask docker_command
+[2022-08-18 11:59:21,734] {task_command.py:369} INFO - Running <TaskInstance: docker_dag.docker_command scheduled__2022-08-18T05:05:00+00:00 [running]> on host e8f82214d52e
+[2022-08-18 11:59:21,983] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=docker_dag
+AIRFLOW_CTX_TASK_ID=docker_command
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-18T05:05:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-08-18T05:05:00+00:00
+[2022-08-18 11:59:22,002] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/docker/operators/docker.py", line 364, in execute
+    self.cli = self._get_cli()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/docker/operators/docker.py", line 395, in _get_cli
+    base_url=self.docker_url, version=self.api_version, tls=tls_config, timeout=self.timeout
+  File "/home/airflow/.local/lib/python3.7/site-packages/docker/api/client.py", line 137, in __init__
+    base_url, IS_WINDOWS_PLATFORM, tls=bool(tls)
+  File "/home/airflow/.local/lib/python3.7/site-packages/docker/utils/utils.py", line 274, in parse_host
+    ' {}'.format(addr)
+docker.errors.DockerException: Invalid bind address format: port is required: docker_url='tcp://127.0.0.1:2375
+[2022-08-18 11:59:22,039] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=docker_dag, task_id=docker_command, execution_date=20220818T050500, start_date=20220818T115921, end_date=20220818T115922
+[2022-08-18 11:59:22,080] {standard_task_runner.py:97} ERROR - Failed to execute job 526 for task docker_command (Invalid bind address format: port is required: docker_url='tcp://127.0.0.1:2375; 13814)
+[2022-08-18 11:59:22,110] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-08-18 11:59:22,244] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

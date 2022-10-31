@@ -1,0 +1,28 @@
+[2022-10-04 21:15:55,848] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: spark_job_dag.git_clone manual__2022-10-04T21:15:49.741574+00:00 [queued]>
+[2022-10-04 21:15:55,866] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: spark_job_dag.git_clone manual__2022-10-04T21:15:49.741574+00:00 [queued]>
+[2022-10-04 21:15:55,867] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-04 21:15:55,868] {taskinstance.py:1357} INFO - Starting attempt 1 of 2
+[2022-10-04 21:15:55,868] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-04 21:15:55,885] {taskinstance.py:1377} INFO - Executing <Task(BashOperator): git_clone> on 2022-10-04 21:15:49.741574+00:00
+[2022-10-04 21:15:55,892] {standard_task_runner.py:52} INFO - Started process 112 to run task
+[2022-10-04 21:15:55,897] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'spark_job_dag', 'git_clone', 'manual__2022-10-04T21:15:49.741574+00:00', '--job-id', '13', '--raw', '--subdir', 'DAGS_FOLDER/spark_job_dag.py', '--cfg-path', '/tmp/tmpkx36xvno', '--error-file', '/tmp/tmpqvt1pohn']
+[2022-10-04 21:15:55,899] {standard_task_runner.py:80} INFO - Job 13: Subtask git_clone
+[2022-10-04 21:15:55,987] {task_command.py:369} INFO - Running <TaskInstance: spark_job_dag.git_clone manual__2022-10-04T21:15:49.741574+00:00 [running]> on host af74cf023be2
+[2022-10-04 21:15:56,090] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=spark_job_dag
+AIRFLOW_CTX_TASK_ID=git_clone
+AIRFLOW_CTX_EXECUTION_DATE=2022-10-04T21:15:49.741574+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-10-04T21:15:49.741574+00:00
+[2022-10-04 21:15:56,094] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-10-04 21:15:56,097] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'git clone https://github.com/marclamberti/simple-app.git /home/***/simple-app']
+[2022-10-04 21:15:56,127] {subprocess.py:85} INFO - Output:
+[2022-10-04 21:15:56,149] {subprocess.py:92} INFO - Cloning into '/home/***/simple-app'...
+[2022-10-04 21:15:57,106] {subprocess.py:96} INFO - Command exited with return code 0
+[2022-10-04 21:15:57,148] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=spark_job_dag, task_id=git_clone, execution_date=20221004T211549, start_date=20221004T211555, end_date=20221004T211557
+[2022-10-04 21:15:57,198] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-10-04 21:15:57,248] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

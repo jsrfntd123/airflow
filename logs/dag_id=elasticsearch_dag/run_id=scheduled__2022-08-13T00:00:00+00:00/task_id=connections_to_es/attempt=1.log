@@ -1,0 +1,27 @@
+[2022-08-14 13:49:16,670] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: elasticsearch_dag.connections_to_es scheduled__2022-08-13T00:00:00+00:00 [queued]>
+[2022-08-14 13:49:16,705] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: elasticsearch_dag.connections_to_es scheduled__2022-08-13T00:00:00+00:00 [queued]>
+[2022-08-14 13:49:16,706] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-14 13:49:16,707] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-08-14 13:49:16,709] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-14 13:49:16,766] {taskinstance.py:1377} INFO - Executing <Task(PostgresToElasticOperator): connections_to_es> on 2022-08-13 00:00:00+00:00
+[2022-08-14 13:49:16,785] {standard_task_runner.py:52} INFO - Started process 9788 to run task
+[2022-08-14 13:49:16,798] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'elasticsearch_dag', 'connections_to_es', 'scheduled__2022-08-13T00:00:00+00:00', '--job-id', '410', '--raw', '--subdir', 'DAGS_FOLDER/elastic_dag.py', '--cfg-path', '/tmp/tmpa63f7_cm', '--error-file', '/tmp/tmptgbu7ld8']
+[2022-08-14 13:49:16,802] {standard_task_runner.py:80} INFO - Job 410: Subtask connections_to_es
+[2022-08-14 13:49:17,066] {task_command.py:369} INFO - Running <TaskInstance: elasticsearch_dag.connections_to_es scheduled__2022-08-13T00:00:00+00:00 [running]> on host a1c9528fe5e1
+[2022-08-14 13:49:17,410] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=elasticsearch_dag
+AIRFLOW_CTX_TASK_ID=connections_to_es
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-13T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-08-13T00:00:00+00:00
+[2022-08-14 13:49:17,477] {base.py:68} INFO - Using connection ID 'elasticsearch_default' for task execution.
+[2022-08-14 13:49:17,539] {base.py:68} INFO - Using connection ID 'postgres_default' for task execution.
+[2022-08-14 13:49:18,260] {base.py:271} INFO - POST http://es01:9200/connections/_doc [status:201 request:0.681s]
+[2022-08-14 13:49:18,316] {base.py:271} INFO - POST http://es01:9200/connections/_doc [status:201 request:0.053s]
+[2022-08-14 13:49:18,362] {base.py:271} INFO - POST http://es01:9200/connections/_doc [status:201 request:0.043s]
+[2022-08-14 13:49:18,405] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=elasticsearch_dag, task_id=connections_to_es, execution_date=20220813T000000, start_date=20220814T134916, end_date=20220814T134918
+[2022-08-14 13:49:18,488] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-08-14 13:49:18,654] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

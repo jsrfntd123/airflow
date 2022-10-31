@@ -1,0 +1,34 @@
+from airflow import DAG
+from airflow.operators.bash import BashOperator
+from datetime import datetime
+
+default_args = {
+    'start_date': datetime(2020,1,1)
+}
+
+with DAG('trigger_rule_dag',schedule_interval='@daily',default_args = default_args, catchup= False) as dag:
+
+    task_1 = BashOperator(
+        task_id = 'task_1',
+        bash_command = 'sleep 30',
+        do_xcom_push= False
+    )
+
+    task_2 = BashOperator(
+        task_id = 'task_2',
+        bash_command = 'exit 1',
+        do_xcom_push= False
+    )
+
+    task_3 = BashOperator(
+        task_id = 'task_3',
+        bash_command = 'exit 0',
+        do_xcom_push= False,
+        trigger_rule = 'one_failed'
+        # all_failed': task_1 and task_2 failed, then task_3 is executed.
+        # all_done: task_1 and task_2 are done, then task_3 is executed.
+        # one_failed: as soon as possible task_1 or task_2 failed, task_3 is executed.
+        # 
+    )
+
+    [task_1, task_2] >> task_3

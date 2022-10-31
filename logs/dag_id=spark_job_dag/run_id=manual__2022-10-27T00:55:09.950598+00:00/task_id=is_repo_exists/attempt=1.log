@@ -1,0 +1,29 @@
+[2022-10-27 00:55:11,473] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: spark_job_dag.is_repo_exists manual__2022-10-27T00:55:09.950598+00:00 [queued]>
+[2022-10-27 00:55:11,483] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: spark_job_dag.is_repo_exists manual__2022-10-27T00:55:09.950598+00:00 [queued]>
+[2022-10-27 00:55:11,484] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-27 00:55:11,484] {taskinstance.py:1357} INFO - Starting attempt 1 of 2
+[2022-10-27 00:55:11,485] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-27 00:55:11,499] {taskinstance.py:1377} INFO - Executing <Task(BranchPythonOperator): is_repo_exists> on 2022-10-27 00:55:09.950598+00:00
+[2022-10-27 00:55:11,506] {standard_task_runner.py:52} INFO - Started process 316 to run task
+[2022-10-27 00:55:11,511] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'spark_job_dag', 'is_repo_exists', 'manual__2022-10-27T00:55:09.950598+00:00', '--job-id', '12', '--raw', '--subdir', 'DAGS_FOLDER/spark_job_dag.py', '--cfg-path', '/tmp/tmpv0ndaz5z', '--error-file', '/tmp/tmp1nxbh2ck']
+[2022-10-27 00:55:11,513] {standard_task_runner.py:80} INFO - Job 12: Subtask is_repo_exists
+[2022-10-27 00:55:11,605] {task_command.py:369} INFO - Running <TaskInstance: spark_job_dag.is_repo_exists manual__2022-10-27T00:55:09.950598+00:00 [running]> on host abbfe66d2e6a
+[2022-10-27 00:55:11,767] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=spark_job_dag
+AIRFLOW_CTX_TASK_ID=is_repo_exists
+AIRFLOW_CTX_EXECUTION_DATE=2022-10-27T00:55:09.950598+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-10-27T00:55:09.950598+00:00
+[2022-10-27 00:55:11,770] {python.py:173} INFO - Done. Returned value was: dummy
+[2022-10-27 00:55:11,790] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 221, in execute
+    f"Branch callable must return valid task_ids. Invalid tasks found: {invalid_task_ids}"
+airflow.exceptions.AirflowException: Branch callable must return valid task_ids. Invalid tasks found: {'dummy'}
+[2022-10-27 00:55:11,794] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=spark_job_dag, task_id=is_repo_exists, execution_date=20221027T005509, start_date=20221027T005511, end_date=20221027T005511
+[2022-10-27 00:55:11,806] {standard_task_runner.py:97} ERROR - Failed to execute job 12 for task is_repo_exists (Branch callable must return valid task_ids. Invalid tasks found: {'dummy'}; 316)
+[2022-10-27 00:55:11,849] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-10-27 00:55:11,897] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

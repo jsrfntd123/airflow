@@ -1,0 +1,34 @@
+[2022-08-18 00:33:06,005] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: spark_job_dag.git_clone scheduled__2022-08-15T18:19:09.951551+00:00 [queued]>
+[2022-08-18 00:33:06,026] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: spark_job_dag.git_clone scheduled__2022-08-15T18:19:09.951551+00:00 [queued]>
+[2022-08-18 00:33:06,027] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-18 00:33:06,028] {taskinstance.py:1357} INFO - Starting attempt 1 of 2
+[2022-08-18 00:33:06,029] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-08-18 00:33:06,056] {taskinstance.py:1377} INFO - Executing <Task(BashOperator): git_clone> on 2022-08-15 18:19:09.951551+00:00
+[2022-08-18 00:33:06,067] {standard_task_runner.py:52} INFO - Started process 77 to run task
+[2022-08-18 00:33:06,078] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'spark_job_dag', 'git_clone', 'scheduled__2022-08-15T18:19:09.951551+00:00', '--job-id', '470', '--raw', '--subdir', 'DAGS_FOLDER/spark_job_dag.py', '--cfg-path', '/tmp/tmp0pk9oo5z', '--error-file', '/tmp/tmpl3he8eop']
+[2022-08-18 00:33:06,084] {standard_task_runner.py:80} INFO - Job 470: Subtask git_clone
+[2022-08-18 00:33:06,236] {task_command.py:369} INFO - Running <TaskInstance: spark_job_dag.git_clone scheduled__2022-08-15T18:19:09.951551+00:00 [running]> on host e8f82214d52e
+[2022-08-18 00:33:06,485] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=spark_job_dag
+AIRFLOW_CTX_TASK_ID=git_clone
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-15T18:19:09.951551+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-08-15T18:19:09.951551+00:00
+[2022-08-18 00:33:06,489] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-08-18 00:33:06,491] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'git clone https://github.com/marclamberti/simple-app.git /home/***/simple-app']
+[2022-08-18 00:33:06,531] {subprocess.py:85} INFO - Output:
+[2022-08-18 00:33:06,540] {subprocess.py:92} INFO - bash: line 1: git: command not found
+[2022-08-18 00:33:06,559] {subprocess.py:96} INFO - Command exited with return code 127
+[2022-08-18 00:33:06,705] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 195, in execute
+    f'Bash command failed. The command returned a non-zero exit code {result.exit_code}.'
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 127.
+[2022-08-18 00:33:06,711] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=spark_job_dag, task_id=git_clone, execution_date=20220815T181909, start_date=20220818T003306, end_date=20220818T003306
+[2022-08-18 00:33:06,758] {standard_task_runner.py:97} ERROR - Failed to execute job 470 for task git_clone (Bash command failed. The command returned a non-zero exit code 127.; 77)
+[2022-08-18 00:33:06,801] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-08-18 00:33:06,887] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

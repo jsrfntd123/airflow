@@ -1,0 +1,99 @@
+[2022-10-04 21:40:57,438] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: spark_job_dag.docker_command manual__2022-10-04T21:40:47.834918+00:00 [queued]>
+[2022-10-04 21:40:57,451] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: spark_job_dag.docker_command manual__2022-10-04T21:40:47.834918+00:00 [queued]>
+[2022-10-04 21:40:57,453] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-04 21:40:57,454] {taskinstance.py:1357} INFO - Starting attempt 1 of 2
+[2022-10-04 21:40:57,456] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-04 21:40:57,473] {taskinstance.py:1377} INFO - Executing <Task(DockerOperator): docker_command> on 2022-10-04 21:40:47.834918+00:00
+[2022-10-04 21:40:57,479] {standard_task_runner.py:52} INFO - Started process 200 to run task
+[2022-10-04 21:40:57,484] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'spark_job_dag', 'docker_command', 'manual__2022-10-04T21:40:47.834918+00:00', '--job-id', '29', '--raw', '--subdir', 'DAGS_FOLDER/spark_job_dag.py', '--cfg-path', '/tmp/tmpqy1fp4bn', '--error-file', '/tmp/tmp6vz13u1o']
+[2022-10-04 21:40:57,485] {standard_task_runner.py:80} INFO - Job 29: Subtask docker_command
+[2022-10-04 21:40:57,548] {task_command.py:369} INFO - Running <TaskInstance: spark_job_dag.docker_command manual__2022-10-04T21:40:47.834918+00:00 [running]> on host 4e0a50bd41f3
+[2022-10-04 21:40:57,626] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=spark_job_dag
+AIRFLOW_CTX_TASK_ID=docker_command
+AIRFLOW_CTX_EXECUTION_DATE=2022-10-04T21:40:47.834918+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-10-04T21:40:47.834918+00:00
+[2022-10-04 21:40:57,694] {docker.py:371} INFO - Pulling docker image bde2020/spark-master:latest
+[2022-10-04 21:40:59,893] {docker.py:385} INFO - latest: Pulling from bde2020/spark-master
+[2022-10-04 21:40:59,894] {docker.py:385} INFO - 396c31837116: Pulling fs layer
+[2022-10-04 21:40:59,895] {docker.py:385} INFO - bb59ba756ca3: Pulling fs layer
+[2022-10-04 21:40:59,896] {docker.py:385} INFO - 52d9f65633a2: Pulling fs layer
+[2022-10-04 21:40:59,897] {docker.py:385} INFO - 7cdbc775d228: Pulling fs layer
+[2022-10-04 21:40:59,897] {docker.py:385} INFO - 1832b9aadd75: Pulling fs layer
+[2022-10-04 21:40:59,898] {docker.py:385} INFO - 7cdbc775d228: Waiting
+[2022-10-04 21:40:59,899] {docker.py:385} INFO - 4f4fb700ef54: Pulling fs layer
+[2022-10-04 21:40:59,900] {docker.py:385} INFO - 616308593c75: Pulling fs layer
+[2022-10-04 21:40:59,900] {docker.py:385} INFO - 1832b9aadd75: Waiting
+[2022-10-04 21:40:59,901] {docker.py:385} INFO - 4f4fb700ef54: Waiting
+[2022-10-04 21:40:59,902] {docker.py:385} INFO - 616308593c75: Waiting
+[2022-10-04 21:41:00,644] {docker.py:385} INFO - bb59ba756ca3: Downloading
+[2022-10-04 21:41:00,645] {docker.py:385} INFO - bb59ba756ca3: Download complete
+[2022-10-04 21:41:00,648] {docker.py:385} INFO - 52d9f65633a2: Downloading
+[2022-10-04 21:41:00,649] {docker.py:385} INFO - 52d9f65633a2: Verifying Checksum
+[2022-10-04 21:41:00,650] {docker.py:385} INFO - 52d9f65633a2: Download complete
+[2022-10-04 21:41:00,876] {docker.py:385} INFO - 396c31837116: Downloading
+[2022-10-04 21:41:01,100] {docker.py:385} INFO - 7cdbc775d228: Downloading
+[2022-10-04 21:41:01,101] {docker.py:385} INFO - 7cdbc775d228: Verifying Checksum
+[2022-10-04 21:41:01,102] {docker.py:385} INFO - 7cdbc775d228: Download complete
+[2022-10-04 21:41:01,404] {docker.py:385} INFO - 1832b9aadd75: Downloading
+[2022-10-04 21:41:01,405] {docker.py:385} INFO - 396c31837116: Download complete
+[2022-10-04 21:41:01,406] {docker.py:385} INFO - 396c31837116: Extracting
+[2022-10-04 21:41:01,629] {docker.py:385} INFO - 4f4fb700ef54: Downloading
+[2022-10-04 21:41:01,630] {docker.py:385} INFO - 4f4fb700ef54: Download complete
+[2022-10-04 21:41:01,876] {docker.py:385} INFO - 396c31837116: Pull complete
+[2022-10-04 21:41:01,877] {docker.py:385} INFO - bb59ba756ca3: Extracting
+[2022-10-04 21:41:02,068] {docker.py:385} INFO - bb59ba756ca3: Pull complete
+[2022-10-04 21:41:02,069] {docker.py:385} INFO - 52d9f65633a2: Extracting
+[2022-10-04 21:41:02,070] {docker.py:385} INFO - 52d9f65633a2: Pull complete
+[2022-10-04 21:41:02,071] {docker.py:385} INFO - 7cdbc775d228: Extracting
+[2022-10-04 21:41:02,072] {docker.py:385} INFO - 616308593c75: Downloading
+[2022-10-04 21:41:02,072] {docker.py:385} INFO - 616308593c75: Verifying Checksum
+[2022-10-04 21:41:02,073] {docker.py:385} INFO - 616308593c75: Download complete
+[2022-10-04 21:41:02,316] {docker.py:385} INFO - 7cdbc775d228: Pull complete
+[2022-10-04 21:41:28,543] {docker.py:385} INFO - 1832b9aadd75: Verifying Checksum
+[2022-10-04 21:41:28,544] {docker.py:385} INFO - 1832b9aadd75: Download complete
+[2022-10-04 21:41:28,545] {docker.py:385} INFO - 1832b9aadd75: Extracting
+[2022-10-04 21:41:41,162] {docker.py:385} INFO - 1832b9aadd75: Pull complete
+[2022-10-04 21:41:41,164] {docker.py:385} INFO - 4f4fb700ef54: Extracting
+[2022-10-04 21:41:41,273] {docker.py:385} INFO - 4f4fb700ef54: Pull complete
+[2022-10-04 21:41:41,274] {docker.py:385} INFO - 616308593c75: Extracting
+[2022-10-04 21:41:41,275] {docker.py:385} INFO - 616308593c75: Pull complete
+[2022-10-04 21:41:41,276] {docker.py:380} INFO - Digest: sha256:3fe3e2c13a3d1f889b5e6127851b56734c3dbd0c268699e5fd3273631973c418
+[2022-10-04 21:41:41,276] {docker.py:380} INFO - Status: Downloaded newer image for bde2020/spark-master:latest
+[2022-10-04 21:41:41,277] {docker.py:247} INFO - Starting docker container from image bde2020/spark-master:latest
+[2022-10-04 21:41:41,299] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/docker/api/client.py", line 268, in _raise_for_status
+    response.raise_for_status()
+  File "/home/airflow/.local/lib/python3.7/site-packages/requests/models.py", line 960, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: Internal Server Error for url: http://docker-socket-proxy:2375/v1.37/containers/create
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/docker/operators/docker.py", line 387, in execute
+    return self._run_image()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/docker/operators/docker.py", line 254, in _run_image
+    return self._run_image_with_mounts(self.mounts + [tmp_mount], add_tmp_variable=True)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/docker/operators/docker.py", line 298, in _run_image_with_mounts
+    tty=self.tty,
+  File "/home/airflow/.local/lib/python3.7/site-packages/docker/api/container.py", line 428, in create_container
+    return self.create_container_from_config(config, name)
+  File "/home/airflow/.local/lib/python3.7/site-packages/docker/api/container.py", line 439, in create_container_from_config
+    return self._result(res, True)
+  File "/home/airflow/.local/lib/python3.7/site-packages/docker/api/client.py", line 274, in _result
+    self._raise_for_status(response)
+  File "/home/airflow/.local/lib/python3.7/site-packages/docker/api/client.py", line 270, in _raise_for_status
+    raise create_api_error_from_http_exception(e)
+  File "/home/airflow/.local/lib/python3.7/site-packages/docker/errors.py", line 31, in create_api_error_from_http_exception
+    raise cls(e, response=response, explanation=explanation)
+docker.errors.APIError: 500 Server Error for http://docker-socket-proxy:2375/v1.37/containers/create: Internal Server Error ("json: cannot unmarshal string into Go struct field HostConfig.HostConfig.Mounts of type mount.Mount")
+[2022-10-04 21:41:41,322] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=spark_job_dag, task_id=docker_command, execution_date=20221004T214047, start_date=20221004T214057, end_date=20221004T214141
+[2022-10-04 21:41:41,340] {standard_task_runner.py:97} ERROR - Failed to execute job 29 for task docker_command (500 Server Error for http://docker-socket-proxy:2375/v1.37/containers/create: Internal Server Error ("json: cannot unmarshal string into Go struct field HostConfig.HostConfig.Mounts of type mount.Mount"); 200)
+[2022-10-04 21:41:41,369] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-10-04 21:41:41,399] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

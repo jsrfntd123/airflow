@@ -1,0 +1,40 @@
+[2022-10-04 21:15:57,906] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: spark_job_dag.git_pull manual__2022-10-04T21:15:49.741574+00:00 [queued]>
+[2022-10-04 21:15:57,916] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: spark_job_dag.git_pull manual__2022-10-04T21:15:49.741574+00:00 [queued]>
+[2022-10-04 21:15:57,916] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-04 21:15:57,917] {taskinstance.py:1357} INFO - Starting attempt 1 of 2
+[2022-10-04 21:15:57,918] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-04 21:15:57,933] {taskinstance.py:1377} INFO - Executing <Task(BashOperator): git_pull> on 2022-10-04 21:15:49.741574+00:00
+[2022-10-04 21:15:57,940] {standard_task_runner.py:52} INFO - Started process 122 to run task
+[2022-10-04 21:15:57,944] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'spark_job_dag', 'git_pull', 'manual__2022-10-04T21:15:49.741574+00:00', '--job-id', '14', '--raw', '--subdir', 'DAGS_FOLDER/spark_job_dag.py', '--cfg-path', '/tmp/tmpz_zah0cx', '--error-file', '/tmp/tmpwcq5c539']
+[2022-10-04 21:15:57,945] {standard_task_runner.py:80} INFO - Job 14: Subtask git_pull
+[2022-10-04 21:15:58,015] {task_command.py:369} INFO - Running <TaskInstance: spark_job_dag.git_pull manual__2022-10-04T21:15:49.741574+00:00 [running]> on host af74cf023be2
+[2022-10-04 21:15:58,092] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=spark_job_dag
+AIRFLOW_CTX_TASK_ID=git_pull
+AIRFLOW_CTX_EXECUTION_DATE=2022-10-04T21:15:49.741574+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-10-04T21:15:49.741574+00:00
+[2022-10-04 21:15:58,094] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-10-04 21:15:58,095] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'cd /home/***/simple-app && git pull']
+[2022-10-04 21:15:58,112] {subprocess.py:85} INFO - Output:
+[2022-10-04 21:15:58,117] {subprocess.py:92} INFO - hint: Pulling without specifying how to reconcile divergent branches is
+[2022-10-04 21:15:58,118] {subprocess.py:92} INFO - hint: discouraged. You can squelch this message by running one of the following
+[2022-10-04 21:15:58,118] {subprocess.py:92} INFO - hint: commands sometime before your next pull:
+[2022-10-04 21:15:58,119] {subprocess.py:92} INFO - hint:
+[2022-10-04 21:15:58,120] {subprocess.py:92} INFO - hint:   git config pull.rebase false  # merge (the default strategy)
+[2022-10-04 21:15:58,120] {subprocess.py:92} INFO - hint:   git config pull.rebase true   # rebase
+[2022-10-04 21:15:58,121] {subprocess.py:92} INFO - hint:   git config pull.ff only       # fast-forward only
+[2022-10-04 21:15:58,121] {subprocess.py:92} INFO - hint:
+[2022-10-04 21:15:58,122] {subprocess.py:92} INFO - hint: You can replace "git config" with "git config --global" to set a default
+[2022-10-04 21:15:58,122] {subprocess.py:92} INFO - hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+[2022-10-04 21:15:58,123] {subprocess.py:92} INFO - hint: or --ff-only on the command line to override the configured default per
+[2022-10-04 21:15:58,123] {subprocess.py:92} INFO - hint: invocation.
+[2022-10-04 21:15:58,601] {subprocess.py:92} INFO - Already up to date.
+[2022-10-04 21:15:58,602] {subprocess.py:96} INFO - Command exited with return code 0
+[2022-10-04 21:15:58,635] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=spark_job_dag, task_id=git_pull, execution_date=20221004T211549, start_date=20221004T211557, end_date=20221004T211558
+[2022-10-04 21:15:58,683] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-10-04 21:15:58,732] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

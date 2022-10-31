@@ -1,0 +1,203 @@
+[2022-10-06 04:58:12,037] {processor.py:153} INFO - Started process (PID=44913) to work on /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 04:58:12,039] {processor.py:641} INFO - Processing file /opt/airflow/dags/spark_job_dag.py for tasks to queue
+[2022-10-06 04:58:12,041] {logging_mixin.py:115} INFO - [2022-10-06 04:58:12,041] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 04:58:12,171] {processor.py:651} INFO - DAG(s) dict_keys(['spark_job_dag']) retrieved from /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 04:58:12,213] {logging_mixin.py:115} INFO - [2022-10-06 04:58:12,213] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-06 04:58:12,249] {logging_mixin.py:115} INFO - [2022-10-06 04:58:12,249] {dag.py:2919} INFO - Setting next_dagrun for spark_job_dag to 2022-10-05T04:58:12.248574+00:00, run_after=2022-10-06T04:58:12.248574+00:00
+[2022-10-06 04:58:12,277] {processor.py:161} INFO - Processing /opt/airflow/dags/spark_job_dag.py took 0.247 seconds
+[2022-10-06 12:13:17,969] {processor.py:153} INFO - Started process (PID=44982) to work on /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 12:13:17,991] {processor.py:641} INFO - Processing file /opt/airflow/dags/spark_job_dag.py for tasks to queue
+[2022-10-06 12:13:18,002] {logging_mixin.py:115} INFO - [2022-10-06 12:13:18,001] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 12:13:18,229] {processor.py:651} INFO - DAG(s) dict_keys(['spark_job_dag']) retrieved from /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 12:13:18,300] {logging_mixin.py:115} INFO - [2022-10-06 12:13:18,300] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-06 12:13:18,342] {logging_mixin.py:115} INFO - [2022-10-06 12:13:18,341] {dag.py:2919} INFO - Setting next_dagrun for spark_job_dag to 2022-10-06T04:58:12.248574+00:00, run_after=2022-10-07T04:58:12.248574+00:00
+[2022-10-06 12:13:18,365] {processor.py:161} INFO - Processing /opt/airflow/dags/spark_job_dag.py took 0.407 seconds
+[2022-10-06 12:13:49,219] {processor.py:153} INFO - Started process (PID=45050) to work on /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 12:13:49,220] {processor.py:641} INFO - Processing file /opt/airflow/dags/spark_job_dag.py for tasks to queue
+[2022-10-06 12:13:49,221] {logging_mixin.py:115} INFO - [2022-10-06 12:13:49,221] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 12:13:49,295] {processor.py:651} INFO - DAG(s) dict_keys(['spark_job_dag']) retrieved from /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 12:13:49,322] {logging_mixin.py:115} INFO - [2022-10-06 12:13:49,322] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-06 12:13:49,340] {logging_mixin.py:115} INFO - [2022-10-06 12:13:49,340] {dag.py:2919} INFO - Setting next_dagrun for spark_job_dag to 2022-10-06T04:58:12.248574+00:00, run_after=2022-10-07T04:58:12.248574+00:00
+[2022-10-06 12:13:49,351] {processor.py:161} INFO - Processing /opt/airflow/dags/spark_job_dag.py took 0.137 seconds
+[2022-10-06 17:15:17,449] {processor.py:153} INFO - Started process (PID=45125) to work on /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 17:15:17,451] {processor.py:641} INFO - Processing file /opt/airflow/dags/spark_job_dag.py for tasks to queue
+[2022-10-06 17:15:17,454] {logging_mixin.py:115} INFO - [2022-10-06 17:15:17,454] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 17:15:17,560] {processor.py:651} INFO - DAG(s) dict_keys(['spark_job_dag']) retrieved from /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 17:15:17,597] {logging_mixin.py:115} INFO - [2022-10-06 17:15:17,596] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-06 17:15:17,635] {logging_mixin.py:115} INFO - [2022-10-06 17:15:17,635] {dag.py:2919} INFO - Setting next_dagrun for spark_job_dag to 2022-10-06T04:58:12.248574+00:00, run_after=2022-10-07T04:58:12.248574+00:00
+[2022-10-06 17:15:17,657] {processor.py:161} INFO - Processing /opt/airflow/dags/spark_job_dag.py took 0.212 seconds
+[2022-10-06 17:15:48,438] {processor.py:153} INFO - Started process (PID=45196) to work on /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 17:15:48,456] {processor.py:641} INFO - Processing file /opt/airflow/dags/spark_job_dag.py for tasks to queue
+[2022-10-06 17:15:48,480] {logging_mixin.py:115} INFO - [2022-10-06 17:15:48,479] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 17:15:49,405] {processor.py:651} INFO - DAG(s) dict_keys(['spark_job_dag']) retrieved from /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 17:15:49,628] {logging_mixin.py:115} INFO - [2022-10-06 17:15:49,627] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-06 17:15:49,808] {logging_mixin.py:115} INFO - [2022-10-06 17:15:49,808] {dag.py:2919} INFO - Setting next_dagrun for spark_job_dag to 2022-10-06T04:58:12.248574+00:00, run_after=2022-10-07T04:58:12.248574+00:00
+[2022-10-06 17:15:49,896] {processor.py:161} INFO - Processing /opt/airflow/dags/spark_job_dag.py took 1.485 seconds
+[2022-10-06 23:41:59,212] {processor.py:153} INFO - Started process (PID=45262) to work on /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:41:59,214] {processor.py:641} INFO - Processing file /opt/airflow/dags/spark_job_dag.py for tasks to queue
+[2022-10-06 23:41:59,218] {logging_mixin.py:115} INFO - [2022-10-06 23:41:59,218] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:41:59,616] {processor.py:651} INFO - DAG(s) dict_keys(['spark_job_dag']) retrieved from /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:41:59,730] {logging_mixin.py:115} INFO - [2022-10-06 23:41:59,730] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-06 23:41:59,849] {logging_mixin.py:115} INFO - [2022-10-06 23:41:59,848] {dag.py:2919} INFO - Setting next_dagrun for spark_job_dag to 2022-10-06T04:58:12.248574+00:00, run_after=2022-10-07T04:58:12.248574+00:00
+[2022-10-06 23:41:59,885] {processor.py:161} INFO - Processing /opt/airflow/dags/spark_job_dag.py took 0.692 seconds
+[2022-10-06 23:42:30,406] {processor.py:153} INFO - Started process (PID=45332) to work on /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:42:30,407] {processor.py:641} INFO - Processing file /opt/airflow/dags/spark_job_dag.py for tasks to queue
+[2022-10-06 23:42:30,408] {logging_mixin.py:115} INFO - [2022-10-06 23:42:30,408] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:42:30,489] {processor.py:651} INFO - DAG(s) dict_keys(['spark_job_dag']) retrieved from /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:42:30,515] {logging_mixin.py:115} INFO - [2022-10-06 23:42:30,515] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-06 23:42:30,533] {logging_mixin.py:115} INFO - [2022-10-06 23:42:30,533] {dag.py:2919} INFO - Setting next_dagrun for spark_job_dag to 2022-10-06T04:58:12.248574+00:00, run_after=2022-10-07T04:58:12.248574+00:00
+[2022-10-06 23:42:30,543] {processor.py:161} INFO - Processing /opt/airflow/dags/spark_job_dag.py took 0.141 seconds
+[2022-10-06 23:43:01,101] {processor.py:153} INFO - Started process (PID=45409) to work on /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:43:01,103] {processor.py:641} INFO - Processing file /opt/airflow/dags/spark_job_dag.py for tasks to queue
+[2022-10-06 23:43:01,104] {logging_mixin.py:115} INFO - [2022-10-06 23:43:01,104] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:43:01,192] {processor.py:651} INFO - DAG(s) dict_keys(['spark_job_dag']) retrieved from /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:43:01,220] {logging_mixin.py:115} INFO - [2022-10-06 23:43:01,220] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-06 23:43:01,242] {logging_mixin.py:115} INFO - [2022-10-06 23:43:01,242] {dag.py:2919} INFO - Setting next_dagrun for spark_job_dag to 2022-10-06T04:58:12.248574+00:00, run_after=2022-10-07T04:58:12.248574+00:00
+[2022-10-06 23:43:01,254] {processor.py:161} INFO - Processing /opt/airflow/dags/spark_job_dag.py took 0.158 seconds
+[2022-10-06 23:43:31,479] {processor.py:153} INFO - Started process (PID=45477) to work on /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:43:31,480] {processor.py:641} INFO - Processing file /opt/airflow/dags/spark_job_dag.py for tasks to queue
+[2022-10-06 23:43:31,482] {logging_mixin.py:115} INFO - [2022-10-06 23:43:31,482] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:43:31,571] {processor.py:651} INFO - DAG(s) dict_keys(['spark_job_dag']) retrieved from /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:43:31,615] {logging_mixin.py:115} INFO - [2022-10-06 23:43:31,615] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-06 23:43:31,644] {logging_mixin.py:115} INFO - [2022-10-06 23:43:31,644] {dag.py:2919} INFO - Setting next_dagrun for spark_job_dag to 2022-10-06T04:58:12.248574+00:00, run_after=2022-10-07T04:58:12.248574+00:00
+[2022-10-06 23:43:31,660] {processor.py:161} INFO - Processing /opt/airflow/dags/spark_job_dag.py took 0.185 seconds
+[2022-10-06 23:44:02,653] {processor.py:153} INFO - Started process (PID=45554) to work on /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:44:02,655] {processor.py:641} INFO - Processing file /opt/airflow/dags/spark_job_dag.py for tasks to queue
+[2022-10-06 23:44:02,656] {logging_mixin.py:115} INFO - [2022-10-06 23:44:02,656] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:44:02,759] {processor.py:651} INFO - DAG(s) dict_keys(['spark_job_dag']) retrieved from /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:44:02,794] {logging_mixin.py:115} INFO - [2022-10-06 23:44:02,794] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-06 23:44:02,822] {logging_mixin.py:115} INFO - [2022-10-06 23:44:02,822] {dag.py:2919} INFO - Setting next_dagrun for spark_job_dag to 2022-10-06T04:58:12.248574+00:00, run_after=2022-10-07T04:58:12.248574+00:00
+[2022-10-06 23:44:02,851] {processor.py:161} INFO - Processing /opt/airflow/dags/spark_job_dag.py took 0.205 seconds
+[2022-10-06 23:44:33,163] {processor.py:153} INFO - Started process (PID=45631) to work on /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:44:33,165] {processor.py:641} INFO - Processing file /opt/airflow/dags/spark_job_dag.py for tasks to queue
+[2022-10-06 23:44:33,166] {logging_mixin.py:115} INFO - [2022-10-06 23:44:33,166] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:44:33,267] {processor.py:651} INFO - DAG(s) dict_keys(['spark_job_dag']) retrieved from /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:44:33,309] {logging_mixin.py:115} INFO - [2022-10-06 23:44:33,309] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-06 23:44:33,346] {logging_mixin.py:115} INFO - [2022-10-06 23:44:33,345] {dag.py:2919} INFO - Setting next_dagrun for spark_job_dag to 2022-10-06T04:58:12.248574+00:00, run_after=2022-10-07T04:58:12.248574+00:00
+[2022-10-06 23:44:33,367] {processor.py:161} INFO - Processing /opt/airflow/dags/spark_job_dag.py took 0.212 seconds
+[2022-10-06 23:45:03,838] {processor.py:153} INFO - Started process (PID=45699) to work on /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:45:03,839] {processor.py:641} INFO - Processing file /opt/airflow/dags/spark_job_dag.py for tasks to queue
+[2022-10-06 23:45:03,840] {logging_mixin.py:115} INFO - [2022-10-06 23:45:03,840] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:45:03,931] {processor.py:651} INFO - DAG(s) dict_keys(['spark_job_dag']) retrieved from /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:45:03,959] {logging_mixin.py:115} INFO - [2022-10-06 23:45:03,959] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-06 23:45:03,981] {logging_mixin.py:115} INFO - [2022-10-06 23:45:03,981] {dag.py:2919} INFO - Setting next_dagrun for spark_job_dag to 2022-10-06T04:58:12.248574+00:00, run_after=2022-10-07T04:58:12.248574+00:00
+[2022-10-06 23:45:03,994] {processor.py:161} INFO - Processing /opt/airflow/dags/spark_job_dag.py took 0.160 seconds
+[2022-10-06 23:45:34,403] {processor.py:153} INFO - Started process (PID=45776) to work on /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:45:34,404] {processor.py:641} INFO - Processing file /opt/airflow/dags/spark_job_dag.py for tasks to queue
+[2022-10-06 23:45:34,408] {logging_mixin.py:115} INFO - [2022-10-06 23:45:34,407] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:45:34,542] {processor.py:651} INFO - DAG(s) dict_keys(['spark_job_dag']) retrieved from /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:45:34,584] {logging_mixin.py:115} INFO - [2022-10-06 23:45:34,583] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-06 23:45:34,618] {logging_mixin.py:115} INFO - [2022-10-06 23:45:34,617] {dag.py:2919} INFO - Setting next_dagrun for spark_job_dag to 2022-10-06T04:58:12.248574+00:00, run_after=2022-10-07T04:58:12.248574+00:00
+[2022-10-06 23:45:34,635] {processor.py:161} INFO - Processing /opt/airflow/dags/spark_job_dag.py took 0.238 seconds
+[2022-10-06 23:46:04,794] {processor.py:153} INFO - Started process (PID=45851) to work on /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:46:04,796] {processor.py:641} INFO - Processing file /opt/airflow/dags/spark_job_dag.py for tasks to queue
+[2022-10-06 23:46:04,797] {logging_mixin.py:115} INFO - [2022-10-06 23:46:04,797] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:46:04,896] {processor.py:651} INFO - DAG(s) dict_keys(['spark_job_dag']) retrieved from /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:46:04,935] {logging_mixin.py:115} INFO - [2022-10-06 23:46:04,935] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-06 23:46:04,963] {logging_mixin.py:115} INFO - [2022-10-06 23:46:04,963] {dag.py:2919} INFO - Setting next_dagrun for spark_job_dag to 2022-10-06T04:58:12.248574+00:00, run_after=2022-10-07T04:58:12.248574+00:00
+[2022-10-06 23:46:04,981] {processor.py:161} INFO - Processing /opt/airflow/dags/spark_job_dag.py took 0.192 seconds
+[2022-10-06 23:46:35,537] {processor.py:153} INFO - Started process (PID=45921) to work on /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:46:35,539] {processor.py:641} INFO - Processing file /opt/airflow/dags/spark_job_dag.py for tasks to queue
+[2022-10-06 23:46:35,540] {logging_mixin.py:115} INFO - [2022-10-06 23:46:35,540] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:46:35,632] {processor.py:651} INFO - DAG(s) dict_keys(['spark_job_dag']) retrieved from /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:46:35,686] {logging_mixin.py:115} INFO - [2022-10-06 23:46:35,686] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-06 23:46:35,714] {logging_mixin.py:115} INFO - [2022-10-06 23:46:35,714] {dag.py:2919} INFO - Setting next_dagrun for spark_job_dag to 2022-10-06T04:58:12.248574+00:00, run_after=2022-10-07T04:58:12.248574+00:00
+[2022-10-06 23:46:35,731] {processor.py:161} INFO - Processing /opt/airflow/dags/spark_job_dag.py took 0.199 seconds
+[2022-10-06 23:47:05,933] {processor.py:153} INFO - Started process (PID=45998) to work on /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:47:05,935] {processor.py:641} INFO - Processing file /opt/airflow/dags/spark_job_dag.py for tasks to queue
+[2022-10-06 23:47:05,936] {logging_mixin.py:115} INFO - [2022-10-06 23:47:05,936] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:47:06,017] {processor.py:651} INFO - DAG(s) dict_keys(['spark_job_dag']) retrieved from /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:47:06,048] {logging_mixin.py:115} INFO - [2022-10-06 23:47:06,047] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-06 23:47:06,073] {logging_mixin.py:115} INFO - [2022-10-06 23:47:06,073] {dag.py:2919} INFO - Setting next_dagrun for spark_job_dag to 2022-10-06T04:58:12.248574+00:00, run_after=2022-10-07T04:58:12.248574+00:00
+[2022-10-06 23:47:06,087] {processor.py:161} INFO - Processing /opt/airflow/dags/spark_job_dag.py took 0.159 seconds
+[2022-10-06 23:47:36,567] {processor.py:153} INFO - Started process (PID=46066) to work on /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:47:36,568] {processor.py:641} INFO - Processing file /opt/airflow/dags/spark_job_dag.py for tasks to queue
+[2022-10-06 23:47:36,570] {logging_mixin.py:115} INFO - [2022-10-06 23:47:36,569] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:47:36,645] {processor.py:651} INFO - DAG(s) dict_keys(['spark_job_dag']) retrieved from /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:47:36,670] {logging_mixin.py:115} INFO - [2022-10-06 23:47:36,670] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-06 23:47:36,688] {logging_mixin.py:115} INFO - [2022-10-06 23:47:36,688] {dag.py:2919} INFO - Setting next_dagrun for spark_job_dag to 2022-10-06T04:58:12.248574+00:00, run_after=2022-10-07T04:58:12.248574+00:00
+[2022-10-06 23:47:36,700] {processor.py:161} INFO - Processing /opt/airflow/dags/spark_job_dag.py took 0.138 seconds
+[2022-10-06 23:48:07,139] {processor.py:153} INFO - Started process (PID=46143) to work on /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:48:07,140] {processor.py:641} INFO - Processing file /opt/airflow/dags/spark_job_dag.py for tasks to queue
+[2022-10-06 23:48:07,141] {logging_mixin.py:115} INFO - [2022-10-06 23:48:07,141] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:48:07,213] {processor.py:651} INFO - DAG(s) dict_keys(['spark_job_dag']) retrieved from /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:48:07,239] {logging_mixin.py:115} INFO - [2022-10-06 23:48:07,238] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-06 23:48:07,256] {logging_mixin.py:115} INFO - [2022-10-06 23:48:07,256] {dag.py:2919} INFO - Setting next_dagrun for spark_job_dag to 2022-10-06T04:58:12.248574+00:00, run_after=2022-10-07T04:58:12.248574+00:00
+[2022-10-06 23:48:07,270] {processor.py:161} INFO - Processing /opt/airflow/dags/spark_job_dag.py took 0.135 seconds
+[2022-10-06 23:48:37,329] {processor.py:153} INFO - Started process (PID=46221) to work on /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:48:37,330] {processor.py:641} INFO - Processing file /opt/airflow/dags/spark_job_dag.py for tasks to queue
+[2022-10-06 23:48:37,331] {logging_mixin.py:115} INFO - [2022-10-06 23:48:37,331] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:48:37,406] {processor.py:651} INFO - DAG(s) dict_keys(['spark_job_dag']) retrieved from /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:48:37,432] {logging_mixin.py:115} INFO - [2022-10-06 23:48:37,432] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-06 23:48:37,450] {logging_mixin.py:115} INFO - [2022-10-06 23:48:37,450] {dag.py:2919} INFO - Setting next_dagrun for spark_job_dag to 2022-10-06T04:58:12.248574+00:00, run_after=2022-10-07T04:58:12.248574+00:00
+[2022-10-06 23:48:37,467] {processor.py:161} INFO - Processing /opt/airflow/dags/spark_job_dag.py took 0.143 seconds
+[2022-10-06 23:49:07,558] {processor.py:153} INFO - Started process (PID=46289) to work on /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:49:07,559] {processor.py:641} INFO - Processing file /opt/airflow/dags/spark_job_dag.py for tasks to queue
+[2022-10-06 23:49:07,561] {logging_mixin.py:115} INFO - [2022-10-06 23:49:07,561] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:49:07,639] {processor.py:651} INFO - DAG(s) dict_keys(['spark_job_dag']) retrieved from /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:49:07,668] {logging_mixin.py:115} INFO - [2022-10-06 23:49:07,668] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-06 23:49:07,688] {logging_mixin.py:115} INFO - [2022-10-06 23:49:07,688] {dag.py:2919} INFO - Setting next_dagrun for spark_job_dag to 2022-10-06T04:58:12.248574+00:00, run_after=2022-10-07T04:58:12.248574+00:00
+[2022-10-06 23:49:07,701] {processor.py:161} INFO - Processing /opt/airflow/dags/spark_job_dag.py took 0.147 seconds
+[2022-10-06 23:49:38,062] {processor.py:153} INFO - Started process (PID=46366) to work on /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:49:38,063] {processor.py:641} INFO - Processing file /opt/airflow/dags/spark_job_dag.py for tasks to queue
+[2022-10-06 23:49:38,064] {logging_mixin.py:115} INFO - [2022-10-06 23:49:38,064] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:49:38,139] {processor.py:651} INFO - DAG(s) dict_keys(['spark_job_dag']) retrieved from /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:49:38,166] {logging_mixin.py:115} INFO - [2022-10-06 23:49:38,166] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-06 23:49:38,188] {logging_mixin.py:115} INFO - [2022-10-06 23:49:38,188] {dag.py:2919} INFO - Setting next_dagrun for spark_job_dag to 2022-10-06T04:58:12.248574+00:00, run_after=2022-10-07T04:58:12.248574+00:00
+[2022-10-06 23:49:38,199] {processor.py:161} INFO - Processing /opt/airflow/dags/spark_job_dag.py took 0.141 seconds
+[2022-10-06 23:50:08,738] {processor.py:153} INFO - Started process (PID=46443) to work on /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:50:08,739] {processor.py:641} INFO - Processing file /opt/airflow/dags/spark_job_dag.py for tasks to queue
+[2022-10-06 23:50:08,740] {logging_mixin.py:115} INFO - [2022-10-06 23:50:08,740] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:50:08,817] {processor.py:651} INFO - DAG(s) dict_keys(['spark_job_dag']) retrieved from /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:50:08,845] {logging_mixin.py:115} INFO - [2022-10-06 23:50:08,845] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-06 23:50:08,867] {logging_mixin.py:115} INFO - [2022-10-06 23:50:08,867] {dag.py:2919} INFO - Setting next_dagrun for spark_job_dag to 2022-10-06T04:58:12.248574+00:00, run_after=2022-10-07T04:58:12.248574+00:00
+[2022-10-06 23:50:08,883] {processor.py:161} INFO - Processing /opt/airflow/dags/spark_job_dag.py took 0.148 seconds
+[2022-10-06 23:50:39,255] {processor.py:153} INFO - Started process (PID=46511) to work on /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:50:39,256] {processor.py:641} INFO - Processing file /opt/airflow/dags/spark_job_dag.py for tasks to queue
+[2022-10-06 23:50:39,257] {logging_mixin.py:115} INFO - [2022-10-06 23:50:39,257] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:50:39,335] {processor.py:651} INFO - DAG(s) dict_keys(['spark_job_dag']) retrieved from /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:50:39,362] {logging_mixin.py:115} INFO - [2022-10-06 23:50:39,362] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-06 23:50:39,383] {logging_mixin.py:115} INFO - [2022-10-06 23:50:39,383] {dag.py:2919} INFO - Setting next_dagrun for spark_job_dag to 2022-10-06T04:58:12.248574+00:00, run_after=2022-10-07T04:58:12.248574+00:00
+[2022-10-06 23:50:39,398] {processor.py:161} INFO - Processing /opt/airflow/dags/spark_job_dag.py took 0.147 seconds
+[2022-10-06 23:51:09,725] {processor.py:153} INFO - Started process (PID=46588) to work on /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:51:09,727] {processor.py:641} INFO - Processing file /opt/airflow/dags/spark_job_dag.py for tasks to queue
+[2022-10-06 23:51:09,728] {logging_mixin.py:115} INFO - [2022-10-06 23:51:09,728] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:51:09,825] {processor.py:651} INFO - DAG(s) dict_keys(['spark_job_dag']) retrieved from /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:51:09,862] {logging_mixin.py:115} INFO - [2022-10-06 23:51:09,861] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-06 23:51:09,885] {logging_mixin.py:115} INFO - [2022-10-06 23:51:09,884] {dag.py:2919} INFO - Setting next_dagrun for spark_job_dag to 2022-10-06T04:58:12.248574+00:00, run_after=2022-10-07T04:58:12.248574+00:00
+[2022-10-06 23:51:09,897] {processor.py:161} INFO - Processing /opt/airflow/dags/spark_job_dag.py took 0.178 seconds
+[2022-10-06 23:51:40,026] {processor.py:153} INFO - Started process (PID=46664) to work on /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:51:40,027] {processor.py:641} INFO - Processing file /opt/airflow/dags/spark_job_dag.py for tasks to queue
+[2022-10-06 23:51:40,028] {logging_mixin.py:115} INFO - [2022-10-06 23:51:40,028] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:51:40,105] {processor.py:651} INFO - DAG(s) dict_keys(['spark_job_dag']) retrieved from /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:51:40,132] {logging_mixin.py:115} INFO - [2022-10-06 23:51:40,132] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-06 23:51:40,154] {logging_mixin.py:115} INFO - [2022-10-06 23:51:40,153] {dag.py:2919} INFO - Setting next_dagrun for spark_job_dag to 2022-10-06T04:58:12.248574+00:00, run_after=2022-10-07T04:58:12.248574+00:00
+[2022-10-06 23:51:40,165] {processor.py:161} INFO - Processing /opt/airflow/dags/spark_job_dag.py took 0.144 seconds
+[2022-10-06 23:52:10,466] {processor.py:153} INFO - Started process (PID=46732) to work on /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:52:10,467] {processor.py:641} INFO - Processing file /opt/airflow/dags/spark_job_dag.py for tasks to queue
+[2022-10-06 23:52:10,469] {logging_mixin.py:115} INFO - [2022-10-06 23:52:10,469] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:52:10,554] {processor.py:651} INFO - DAG(s) dict_keys(['spark_job_dag']) retrieved from /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:52:10,584] {logging_mixin.py:115} INFO - [2022-10-06 23:52:10,584] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-06 23:52:10,607] {logging_mixin.py:115} INFO - [2022-10-06 23:52:10,607] {dag.py:2919} INFO - Setting next_dagrun for spark_job_dag to 2022-10-06T04:58:12.248574+00:00, run_after=2022-10-07T04:58:12.248574+00:00
+[2022-10-06 23:52:10,618] {processor.py:161} INFO - Processing /opt/airflow/dags/spark_job_dag.py took 0.157 seconds
+[2022-10-06 23:52:40,827] {processor.py:153} INFO - Started process (PID=46810) to work on /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:52:40,828] {processor.py:641} INFO - Processing file /opt/airflow/dags/spark_job_dag.py for tasks to queue
+[2022-10-06 23:52:40,830] {logging_mixin.py:115} INFO - [2022-10-06 23:52:40,829] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:52:40,914] {processor.py:651} INFO - DAG(s) dict_keys(['spark_job_dag']) retrieved from /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:52:40,943] {logging_mixin.py:115} INFO - [2022-10-06 23:52:40,943] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-06 23:52:40,965] {logging_mixin.py:115} INFO - [2022-10-06 23:52:40,965] {dag.py:2919} INFO - Setting next_dagrun for spark_job_dag to 2022-10-06T04:58:12.248574+00:00, run_after=2022-10-07T04:58:12.248574+00:00
+[2022-10-06 23:52:40,982] {processor.py:161} INFO - Processing /opt/airflow/dags/spark_job_dag.py took 0.160 seconds
+[2022-10-06 23:53:11,284] {processor.py:153} INFO - Started process (PID=46887) to work on /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:53:11,285] {processor.py:641} INFO - Processing file /opt/airflow/dags/spark_job_dag.py for tasks to queue
+[2022-10-06 23:53:11,286] {logging_mixin.py:115} INFO - [2022-10-06 23:53:11,286] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:53:11,372] {processor.py:651} INFO - DAG(s) dict_keys(['spark_job_dag']) retrieved from /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:53:11,398] {logging_mixin.py:115} INFO - [2022-10-06 23:53:11,398] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-06 23:53:11,418] {logging_mixin.py:115} INFO - [2022-10-06 23:53:11,418] {dag.py:2919} INFO - Setting next_dagrun for spark_job_dag to 2022-10-06T04:58:12.248574+00:00, run_after=2022-10-07T04:58:12.248574+00:00
+[2022-10-06 23:53:11,428] {processor.py:161} INFO - Processing /opt/airflow/dags/spark_job_dag.py took 0.148 seconds
+[2022-10-06 23:53:41,692] {processor.py:153} INFO - Started process (PID=46955) to work on /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:53:41,694] {processor.py:641} INFO - Processing file /opt/airflow/dags/spark_job_dag.py for tasks to queue
+[2022-10-06 23:53:41,695] {logging_mixin.py:115} INFO - [2022-10-06 23:53:41,695] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:53:41,774] {processor.py:651} INFO - DAG(s) dict_keys(['spark_job_dag']) retrieved from /opt/airflow/dags/spark_job_dag.py
+[2022-10-06 23:53:41,805] {logging_mixin.py:115} INFO - [2022-10-06 23:53:41,804] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-10-06 23:53:41,829] {logging_mixin.py:115} INFO - [2022-10-06 23:53:41,829] {dag.py:2919} INFO - Setting next_dagrun for spark_job_dag to 2022-10-06T04:58:12.248574+00:00, run_after=2022-10-07T04:58:12.248574+00:00
+[2022-10-06 23:53:41,840] {processor.py:161} INFO - Processing /opt/airflow/dags/spark_job_dag.py took 0.153 seconds

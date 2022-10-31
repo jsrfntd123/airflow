@@ -1,0 +1,23 @@
+[2022-10-27 00:52:55,834] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: example_kubernetes_executor.test_sharedvolume_mount manual__2022-10-27T00:52:52.053830+00:00 [queued]>
+[2022-10-27 00:52:55,847] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: example_kubernetes_executor.test_sharedvolume_mount manual__2022-10-27T00:52:52.053830+00:00 [queued]>
+[2022-10-27 00:52:55,849] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-27 00:52:55,850] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2022-10-27 00:52:55,851] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-27 00:52:55,868] {taskinstance.py:1377} INFO - Executing <Task(_PythonDecoratedOperator): test_sharedvolume_mount> on 2022-10-27 00:52:52.053830+00:00
+[2022-10-27 00:52:55,874] {standard_task_runner.py:52} INFO - Started process 164 to run task
+[2022-10-27 00:52:55,878] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'example_kubernetes_executor', 'test_sharedvolume_mount', 'manual__2022-10-27T00:52:52.053830+00:00', '--job-id', '6', '--raw', '--subdir', '/home/***/.local/lib/python3.7/site-packages/***/example_dags/example_kubernetes_executor.py', '--cfg-path', '/tmp/tmpxkbfwegs', '--error-file', '/tmp/tmpzswo29vm']
+[2022-10-27 00:52:55,880] {standard_task_runner.py:80} INFO - Job 6: Subtask test_sharedvolume_mount
+[2022-10-27 00:52:55,961] {task_command.py:369} INFO - Running <TaskInstance: example_kubernetes_executor.test_sharedvolume_mount manual__2022-10-27T00:52:52.053830+00:00 [running]> on host abbfe66d2e6a
+[2022-10-27 00:52:56,049] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=example_kubernetes_executor
+AIRFLOW_CTX_TASK_ID=test_sharedvolume_mount
+AIRFLOW_CTX_EXECUTION_DATE=2022-10-27T00:52:52.053830+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-10-27T00:52:52.053830+00:00
+[2022-10-27 00:52:56,069] {python.py:173} INFO - Done. Returned value was: None
+[2022-10-27 00:52:56,083] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=example_kubernetes_executor, task_id=test_sharedvolume_mount, execution_date=20221027T005252, start_date=20221027T005255, end_date=20221027T005256
+[2022-10-27 00:52:56,133] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-10-27 00:52:56,174] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
